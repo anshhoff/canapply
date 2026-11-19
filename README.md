@@ -194,13 +194,25 @@ uv run python -m canapply.embed                # local embeddings
 uv run python -m canapply.extract --limit=500  # LLM reading for the postings that matter most
 uv run python -m canapply.bot                  # the Telegram bot
 
-uv run pytest                                  # 36 tests, no database or API key needed
+uv run pytest                                  # 39 tests, no database or API key needed
 uv run python -m evals.run_evals               # recompute the tables above
 ```
 
-`Dockerfile` builds one image that runs the bot and a small status API (`/health`, `/status`, `/search`).
-`.github/workflows/refresh.yml` refreshes the index every 6 hours; `ci.yml` runs lint, the unit tests and an
-eval gate that fails the build if verdict accuracy on the frozen 120-posting sample drops below 92%.
+`ci.yml` runs lint, the unit tests, an eval gate that fails the build if verdict accuracy on the frozen
+120-posting sample drops below 92%, and a Docker build that starts the container and checks it answers.
+
+## Hosting it for free
+
+One Docker image runs the bot and a small status API (`/ping`, `/health`, `/status`, `/search`).
+
+- **Database:** any Postgres with pgvector. `scripts/copy_db_to_hosted.sh` copies the local database into an
+  empty hosted one (written for Neon's free plan).
+- **Host:** `render.yaml` describes one free Render web service. When the host gives the service a public URL,
+  the bot switches from long polling to a **Telegram webhook**, so an incoming message wakes a sleeping free
+  instance, and it pings its own `/ping` every 10 minutes so it rarely sleeps at all. `/ping` does not touch the
+  database, which lets a serverless database stay asleep between messages.
+- **Refresh:** `.github/workflows/refresh.yml` re-reads every career page every 6 hours. It stays off until the
+  repository variable `REFRESH_ENABLED` is `true` and the `DATABASE_URL` and `GEMINI_API_KEY` secrets exist.
 
 ## Layout
 

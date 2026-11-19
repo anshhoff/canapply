@@ -19,9 +19,14 @@ def _configure(conn: psycopg.Connection) -> None:
 def pool() -> ConnectionPool:
     global _pool
     if _pool is None:
+        kwargs = {"row_factory": dict_row, "autocommit": True}
+        if "-pooler" in config.DATABASE_URL:          # pgbouncer in transaction mode cannot keep prepared statements
+            kwargs["prepare_threshold"] = None
+        # A serverless database (Neon) suspends when idle and drops our connections. check= tests a connection
+        # before handing it out and replaces a dead one; max_idle stops us holding connections we do not need.
         _pool = ConnectionPool(
-            config.DATABASE_URL, min_size=1, max_size=4, configure=_configure,
-            kwargs={"row_factory": dict_row, "autocommit": True}, open=True,
+            config.DATABASE_URL, min_size=1, max_size=4, configure=_configure, kwargs=kwargs,
+            check=ConnectionPool.check_connection, max_idle=120, open=True,
         )
     return _pool
 

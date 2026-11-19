@@ -1,4 +1,5 @@
 """The few Telegram Bot API calls we need, over plain HTTPS."""
+import hashlib
 import html
 
 import httpx
@@ -81,5 +82,21 @@ def download(file_id: str, max_bytes: int = 5_000_000) -> bytes:
     return r.content
 
 
+UPDATES = ["message", "callback_query"]
+
+
+def webhook_secret() -> str:
+    """Telegram echoes this back in a header on every webhook call. Derived from the token, so no extra setting."""
+    return hashlib.sha256(("canapply-webhook:" + config.TELEGRAM_BOT_TOKEN).encode()).hexdigest()[:40]
+
+
+def set_webhook(url: str) -> None:
+    call("setWebhook", url=url, secret_token=webhook_secret(), allowed_updates=UPDATES, max_connections=4)
+
+
+def delete_webhook() -> None:
+    call("deleteWebhook")
+
+
 def get_updates(offset: int | None, timeout: int = 50) -> list[dict]:
-    return call("getUpdates", offset=offset, timeout=timeout, allowed_updates=["message", "callback_query"])
+    return call("getUpdates", offset=offset, timeout=timeout, allowed_updates=UPDATES)

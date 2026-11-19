@@ -13,3 +13,16 @@ jobs:
       - run: uv run ruff check canapply evals tests
       # Unit tests + the eval regression gate. No database, no API key: everything here is deterministic.
       - run: uv run pytest
+
+  docker:
+    # The same image the host builds. Proves the Dockerfile works and the server imports inside it.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t canapply .
+      - name: Start the container and check it answers
+        run: |
+          docker run -d --name canapply -p 8080:8080 -e PUBLIC_URL= -e TELEGRAM_BOT_TOKEN= canapply \
+            uv run --no-sync uvicorn canapply.api:app --host 0.0.0.0 --port 8080
+          for i in $(seq 1 30); do curl -fsS http://localhost:8080/ping && exit 0; sleep 2; done
+          docker logs canapply; exit 1

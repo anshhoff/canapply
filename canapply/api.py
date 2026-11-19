@@ -1,11 +1,34 @@
 """Small HTTP surface: a health check for the host, and a status page that shows the index is alive."""
-from fastapi import FastAPI, Query
+from concurrent.futures import ThreadPoolExecutor
+
+from fastapi import FastAPI, Header, HTTPException, Query, Request
 
 from . import db
 from . import search as S
+from . import telegram as tg
 from .eligibility import Profile
 
 app = FastAPI(title="CanApply", docs_url="/docs")
+_workers = ThreadPoolExecutor(max_workers=4, thread_name_prefix="update")
+
+
+@app.get("/ping")
+def ping() -> dict:
+    """Liveness only. Deliberately does not touch the database, so keep-alive pings let a serverless database sleep."""
+    return {"ok": True}
+
+
+@app.post("/telegram/webhook")
+async def telegram_webhook(request: Request, x_telegram_bot_api_secret_token: str = Header(default="")) -> dict:
+    """Webhook mode: Telegram posts each update here. Answer at once and do the work on a worker thread."""
+    if x_telegram_bot_api_secret_token != tg.webhook_secret():
+        raise HTTPException(status_code=403, detail="bad secret")
+    update = await request.json()
+    # Imported late: the bot pulls in the agent and search stack.
+    from . import bot
+
+    _workers.submit(bot.dispatch, update)
+    return {"ok": True}
 
 
 @app.get("/health")

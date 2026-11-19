@@ -11,6 +11,8 @@ DATABASE_URL = os.getenv("DATABASE_URL", "postgresql:///canapply")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 OWNER_CHAT_ID = int(os.getenv("OWNER_CHAT_ID", "0") or 0)
+# Set on a host (Render sets RENDER_EXTERNAL_URL itself): Telegram then pushes updates to us instead of being polled.
+PUBLIC_URL = (os.getenv("PUBLIC_URL") or os.getenv("RENDER_EXTERNAL_URL") or "").rstrip("/")
 QUIET = os.getenv("QUIET", "") == "1"      # send Telegram messages without a notification sound (testing at night)
 
 # Models, each a fallback chain (first that answers wins). Free-tier models are often overloaded, so every

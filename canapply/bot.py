@@ -351,6 +351,10 @@ def run_digests_if_due() -> None:
 
 def main() -> None:
     db.init_schema()
+    try:
+        tg.delete_webhook()            # getUpdates is refused while a webhook is set (for example by a hosted copy)
+    except Exception as e:  # noqa: BLE001
+        print("could not clear webhook:", str(e)[:200], flush=True)
     print("CanApply bot running. Ctrl+C to stop.", flush=True)
     offset = None
     pool = ThreadPoolExecutor(max_workers=4)

@@ -11,7 +11,7 @@ jobs:
     # Off until the hosted database exists: set the repository variable REFRESH_ENABLED=true to turn it on.
     if: vars.REFRESH_ENABLED == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 75
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

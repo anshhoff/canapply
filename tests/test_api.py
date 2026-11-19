@@ -27,3 +27,8 @@ def test_webhook_accepts_the_right_secret_and_hands_the_update_to_the_bot(monkey
     from canapply.api import _workers
     _workers.submit(lambda: None).result(timeout=5)      # let the worker thread drain
     assert seen == [{"update_id": 7}]
+
+
+def test_home_page_is_served_without_a_database():
+    r = client.get("/")
+    assert r.status_code == 200 and "CanApply" in r.text and "t.me/CanApplyJobsBot" in r.text

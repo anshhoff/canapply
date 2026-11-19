@@ -1,0 +1,263 @@
+[
+ {
+  "id": 1027,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote role appears US-only (E-Verify, SF); research role"
+  ],
+  "soft_misses": [],
+  "reason": "Remote tied to US with E-Verify, no statement welcoming India."
+ },
+ {
+  "id": 1247,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "SF on-site, no visa statement"
+  ],
+  "reason": "On-site US role with no visa statement; no years stated."
+ },
+ {
+  "id": 1467,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "SF/NYC on-site, no visa statement"
+  ],
+  "reason": "On-site US role with no visa statement; no years stated."
+ },
+ {
+  "id": 1484,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "DC/SF hybrid, no visa statement"
+  ],
+  "reason": "Hybrid US FDE, federal focus but no clearance or citizenship stated, no years stated."
+ },
+ {
+  "id": 1723,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "SF on-site, no visa statement"
+  ],
+  "reason": "New grad/intern FDE on-site in SF, no visa statement."
+ },
+ {
+  "id": 3418,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "On-site SF but posting says open to sponsoring international visas; no years stated."
+ },
+ {
+  "id": 3426,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "On-site SF but posting says open to sponsoring international visas; no years stated."
+ },
+ {
+  "id": 3738,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Stockholm on-site, no visa statement"
+  ],
+  "reason": "On-site Sweden with no visa statement; no years stated."
+ },
+ {
+  "id": 4123,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "SF/NYC hybrid, no visa statement"
+  ],
+  "reason": "Junior role, hybrid US with no visa statement."
+ },
+ {
+  "id": 4390,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "SF hybrid, no visa statement"
+  ],
+  "reason": "Hybrid US role, wants 'experienced' engineers but no years stated."
+ },
+ {
+  "id": 4514,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "SF location, no visa statement"
+  ],
+  "reason": "US-based role with no visa statement; no years stated."
+ },
+ {
+  "id": 6876,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years required"
+  ],
+  "soft_misses": [
+   "SF hybrid, no visa statement"
+  ],
+  "reason": "Needs 3+ years customer-facing technical experience."
+ },
+ {
+  "id": 6877,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years required"
+  ],
+  "soft_misses": [
+   "NY hybrid, no visa statement"
+  ],
+  "reason": "Needs 3+ years customer-facing technical experience."
+ },
+ {
+  "id": 11102,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "2+ years required vs 0.8"
+  ],
+  "reason": "Remote India ML role at IC4 needing 2+ years, about 1.2 more than candidate."
+ },
+ {
+  "id": 11810,
+  "bucket": "cannot",
+  "hard_misses": [
+   "not for entry-level or new grads",
+   "extensive years of experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Explicitly excludes entry-level; needs experienced GenAI engineer."
+ },
+ {
+  "id": 11943,
+  "bucket": "cannot",
+  "hard_misses": [
+   "extensive experience, owns architecture"
+  ],
+  "soft_misses": [
+   "London, no visa statement"
+  ],
+  "reason": "Experienced FDE leading architecture, in London with no visa statement."
+ },
+ {
+  "id": 12208,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Denmark, no visa statement"
+  ],
+  "reason": "Intern for fall 2027-summer 2028 grads, matches; Denmark with no visa statement."
+ },
+ {
+  "id": 12213,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "US/Canada, no visa statement"
+  ],
+  "reason": "New grad for fall 2026/spring 2027 grads, matches; US/Canada no visa statement."
+ },
+ {
+  "id": 12215,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Netherlands, no visa statement"
+  ],
+  "reason": "New grad 2027, matches; Netherlands with no visa statement."
+ },
+ {
+  "id": 12218,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "US, no visa statement"
+  ],
+  "reason": "New grad 2027, matches; US with no visa statement."
+ },
+ {
+  "id": 13243,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "London hybrid, no visa statement"
+  ],
+  "reason": "Mid-level SWE II role, no years stated; UK hybrid with no visa statement."
+ },
+ {
+  "id": 13244,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "London on-site, no visa statement"
+  ],
+  "reason": "Mid-level SWE II role, no years stated; London with no visa statement."
+ },
+ {
+  "id": 15791,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior-level duties: lead migrations, mentor engineers, technical leadership"
+  ],
+  "soft_misses": [
+   "Toronto hybrid, no visa statement"
+  ],
+  "reason": "Reads as senior backend role leading migrations and mentoring."
+ },
+ {
+  "id": 16299,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "SF on-site, no visa statement"
+  ],
+  "reason": "US on-site product engineer, no years stated, no visa statement."
+ },
+ {
+  "id": 19259,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Toronto hybrid, no visa statement"
+  ],
+  "reason": "Data Engineer II needing demonstrated professional experience, no years stated; Canada hybrid."
+ },
+ {
+  "id": 25499,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Master's required",
+   "6 years experience required",
+   "4 years in each of several areas"
+  ],
+  "soft_misses": [
+   "Seattle, no visa statement"
+  ],
+  "reason": "Needs Master's plus 6 years."
+ },
+ {
+  "id": 26640,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Iceland on-site, no visa statement"
+  ],
+  "reason": "Junior role open to recent grads; on-site Iceland with no visa statement."
+ },
+ {
+  "id": 28134,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Singapore, no visa statement"
+  ],
+  "reason": "Data engineering intern, degree in related field, 6 months; Singapore with no visa statement."
+ }
+]

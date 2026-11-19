@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18T23:26",
+ "date": "2026-11-19T13:53",
  "profile": {
   "country": "IN",
   "work_auth": [
@@ -21,17 +21,17 @@
   "tech": 16431,
   "embedded": 16431,
   "boards": 349,
-  "llm_read": 1420,
-  "rules_only": 15011,
-  "quotes": 1264,
-  "quotes_ok": 1227,
+  "llm_read": 1487,
+  "rules_only": 14944,
+  "quotes": 1287,
+  "quotes_ok": 1247,
   "buckets_for_owner_profile": {
-   "cannot": 14528,
-   "stretch": 1717,
-   "can_apply": 186
+   "cannot": 14545,
+   "stretch": 1701,
+   "can_apply": 185
   },
-  "remote_postings_fully_read": 239,
-  "remote_closed_to_owner_country": 179
+  "remote_postings_fully_read": 242,
+  "remote_closed_to_owner_country": 181
  },
  "reading": {
   "pool": 120,
@@ -163,14 +163,14 @@
    "voice ai engineer",
    "founding engineer at a startup"
   ],
-  "pool": 351,
-  "gold": "351 claude",
+  "pool": 382,
+  "gold": "382 claude",
   "table": {
    "keyword": {
     "can_apply@10": 0.0,
     "can_apply_or_stretch@10": 0.042,
     "relevant_and_can_apply@10": 0.0,
-    "ndcg@10": 0.285,
+    "ndcg@10": 0.283,
     "relevant_share_of_returned": 0.45,
     "avg_results_returned": 10.0,
     "queries_scored": 12
@@ -179,7 +179,7 @@
     "can_apply@10": 0.017,
     "can_apply_or_stretch@10": 0.217,
     "relevant_and_can_apply@10": 0.017,
-    "ndcg@10": 0.804,
+    "ndcg@10": 0.798,
     "relevant_share_of_returned": 0.942,
     "avg_results_returned": 10.0,
     "queries_scored": 12
@@ -188,7 +188,7 @@
     "can_apply@10": 0.025,
     "can_apply_or_stretch@10": 0.175,
     "relevant_and_can_apply@10": 0.025,
-    "ndcg@10": 0.77,
+    "ndcg@10": 0.766,
     "relevant_share_of_returned": 0.9,
     "avg_results_returned": 10.0,
     "queries_scored": 12
@@ -197,7 +197,7 @@
     "can_apply@10": 0.025,
     "can_apply_or_stretch@10": 0.208,
     "relevant_and_can_apply@10": 0.025,
-    "ndcg@10": 0.844,
+    "ndcg@10": 0.837,
     "relevant_share_of_returned": 0.942,
     "avg_results_returned": 10.0,
     "queries_scored": 12
@@ -206,7 +206,7 @@
     "can_apply@10": 0.767,
     "can_apply_or_stretch@10": 0.858,
     "relevant_and_can_apply@10": 0.342,
-    "ndcg@10": 0.276,
+    "ndcg@10": 0.274,
     "relevant_share_of_returned": 0.442,
     "avg_results_returned": 10.0,
     "queries_scored": 12
@@ -215,7 +215,7 @@
     "can_apply@10": 0.808,
     "can_apply_or_stretch@10": 0.875,
     "relevant_and_can_apply@10": 0.425,
-    "ndcg@10": 0.291,
+    "ndcg@10": 0.289,
     "relevant_share_of_returned": 0.483,
     "avg_results_returned": 10.0,
     "queries_scored": 12
@@ -224,9 +224,18 @@
     "can_apply@10": 0.367,
     "can_apply_or_stretch@10": 0.842,
     "relevant_and_can_apply@10": 0.25,
-    "ndcg@10": 0.555,
+    "ndcg@10": 0.552,
     "relevant_share_of_returned": 0.8,
     "avg_results_returned": 10.0,
+    "queries_scored": 12
+   },
+   "full pipeline + relevance floor": {
+    "can_apply@10": 0.333,
+    "can_apply_or_stretch@10": 0.833,
+    "relevant_and_can_apply@10": 0.242,
+    "ndcg@10": 0.524,
+    "relevant_share_of_returned": 0.825,
+    "avg_results_returned": 9.583,
     "queries_scored": 12
    }
   }

@@ -24,16 +24,16 @@ For one real profile (a final-year student in India with under a year of experie
 
 | Verdict for this person | Postings | Share |
 |---|---|---|
-| ✅ Can apply | 186 | 1.1% |
-| 🟡 Stretch | 1,717 | 10.4% |
-| ⛔ Can't | 14,528 | 88.4% |
+| ✅ Can apply | 185 | 1.1% |
+| 🟡 Stretch | 1,701 | 10.4% |
+| ⛔ Can't | 14,545 | 88.5% |
 
-- Of the **239 remote postings** read in full, **179 (75%)** are closed to someone in India because of where the
+- Of the **242 remote postings** read in full, **181 (75%)** are closed to someone in India because of where the
   hire must live. "Remote" usually means "remote within one country".
 - A plain hybrid search put **0.25** jobs this person can apply to in its top 10. With eligibility in the
-  pipeline that became **7.7 to 8.1** (and 3.7 with the relevance floor that is on by default; see Results).
+  pipeline that became **7.7 to 8.1** (and 3.3 to 3.7 with the relevance floor that is on by default; see Results).
 
-(Only 1,420 of these postings have a full LLM reading so far; the other 15,011 are judged from rules, which were
+(Only 1,487 of these postings have a full LLM reading so far; the other 14,944 are judged from rules, which were
 85% accurate on the labelled sample. So read the first table as a close estimate, not an exact count.)
 
 So plain semantic search, however good, mostly returns jobs this person cannot get. That is the problem
@@ -98,11 +98,11 @@ come from an independent labeller reading each full posting against a written ru
 The first two rows are what the system scored the first time it was measured. The last two are after fixing
 a bug the eval itself exposed, so they are measured on the same postings the fix was found on.
 
-Quote checks: in this sample 120 of 123 quoted requirements passed. Across the whole index 1,227 of 1,264
-passed (97%), which means 37 claims by the model were thrown out by code before they could affect a verdict.
+Quote checks: in this sample 120 of 123 quoted requirements passed. Across the whole index 1,247 of 1,287
+passed (97%), which means 40 claims by the model were thrown out by code before they could affect a verdict.
 
-A second, larger check: across all 462 postings labelled for the two evals, the system's verdict matched the
-label on 90.9%, with "can apply" precision 57 of 75 and recall 57 of 60.
+A second, larger check: across all 490 postings labelled for the two evals, the system's verdict matched the
+label on 91.2%, with "can apply" precision 58 of 74 and recall 58 of 62.
 
 What the mistakes were, read one by one:
 
@@ -121,19 +121,20 @@ The first run had 10 disagreements out of 120:
 
 ### 2. Of the top 10 results, how many can this person apply to?
 
-12 searches an early-career person would type ([`evals/queries.json`](evals/queries.json)), run through six
+12 searches an early-career person would type ([`evals/queries.json`](evals/queries.json)), run through eight
 versions of the pipeline. Every posting any version returned was labelled for eligibility, and each
 search-posting pair was graded for relevance (0, 1 or 2).
 
 | Pipeline | Can apply, of 10 | Can apply or stretch, of 10 | Relevant **and** can apply, of 10 | Relevant, share of results | NDCG@10 |
 |---|---|---|---|---|---|
-| Keyword only | 0.0 | 0.4 | 0.0 | 45% | 0.29 |
+| Keyword only | 0.0 | 0.4 | 0.0 | 45% | 0.28 |
 | Vector only | 0.2 | 2.2 | 0.2 | 94% | 0.80 |
 | Hybrid (keyword + vector, RRF) | 0.25 | 1.75 | 0.25 | 90% | 0.77 |
 | Hybrid + LLM re-rank | 0.25 | 2.1 | 0.25 | 94% | **0.84** |
-| Hybrid + eligibility | 7.7 | 8.6 | 3.4 | 44% | 0.28 |
+| Hybrid + eligibility | 7.7 | 8.6 | 3.4 | 44% | 0.27 |
 | Full pipeline (eligibility + lazy reading + re-rank) | **8.1** | **8.75** | **4.25** | 48% | 0.29 |
-| Hybrid + eligibility + relevance floor (added after seeing the rows above) | 3.7 | 8.4 | 2.5 | 80% | 0.56 |
+| Hybrid + eligibility + relevance floor (added after seeing the rows above) | 3.7 | 8.4 | 2.5 | 80% | 0.55 |
+| Full pipeline + relevance floor (what the bot runs; measured a day later) | 3.3 | 8.3 | 2.4 | 83% | 0.52 |
 
 How to read it:
 
@@ -148,8 +149,11 @@ How to read it:
   relevant "can apply" jobs, so that count falls from 7.7 to 3.7 and the gap is filled with relevant stretch
   jobs. There are simply few jobs that are both. The floor is on by default in the bot, because showing ten
   unrelated jobs breaks trust faster than showing four good ones.
-- **Not yet measured:** the full pipeline with the floor and the re-ranker's veto together. The free quota for
-  the day ran out. That is the next number to get, along with a floor tuned per bucket.
+- **The re-ranker adds little once the floor is on.** With both, 83% of results are relevant (80% without the
+  re-ranker) and the "can apply" count is 3.3 against 3.7: inside the noise for 12 searches. So the shipped
+  pipeline puts about 2.4 jobs that are both relevant and within reach in the top 10, against 0.25 for plain
+  hybrid search, and most of the remaining slots are relevant stretch jobs. A floor tuned per bucket is the
+  next thing to try.
 
 ### Honest limits of these numbers
 
@@ -162,7 +166,7 @@ How to read it:
   with one posting either way.
 - Relevance grades were given mostly from the title and the first lines of each posting. A few labellers judged
   senior-titled postings from the title and location without reading the whole text.
-- 1,420 of 16,431 postings have a full LLM reading. Every intern, new-grad and junior-titled posting is
+- 1,487 of 16,431 postings have a full LLM reading. Every intern, new-grad and junior-titled posting is
   covered; the rest are judged by rules until they are about to be shown to someone.
 - The eligibility rules encode judgement (for example "one year short is a stretch"). Someone else could
   reasonably draw those lines differently.

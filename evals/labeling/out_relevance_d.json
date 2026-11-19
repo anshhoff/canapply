@@ -1,0 +1,213 @@
+[
+ {
+  "query": "ai engineer intern",
+  "grades": [
+   {
+    "id": 13006,
+    "grade": 1
+   }
+  ]
+ },
+ {
+  "query": "machine learning internship",
+  "grades": [
+   {
+    "id": 11102,
+    "grade": 1
+   },
+   {
+    "id": 12700,
+    "grade": 2
+   },
+   {
+    "id": 3418,
+    "grade": 1
+   }
+  ]
+ },
+ {
+  "query": "backend engineer new grad python",
+  "grades": [
+   {
+    "id": 21739,
+    "grade": 1
+   },
+   {
+    "id": 25499,
+    "grade": 1
+   },
+   {
+    "id": 15791,
+    "grade": 1
+   },
+   {
+    "id": 13244,
+    "grade": 1
+   },
+   {
+    "id": 13243,
+    "grade": 1
+   }
+  ]
+ },
+ {
+  "query": "software engineer intern remote",
+  "grades": [
+   {
+    "id": 2403,
+    "grade": 0
+   },
+   {
+    "id": 15286,
+    "grade": 0
+   }
+  ]
+ },
+ {
+  "query": "full stack developer react node",
+  "grades": [
+   {
+    "id": 3426,
+    "grade": 2
+   },
+   {
+    "id": 3738,
+    "grade": 2
+   },
+   {
+    "id": 1247,
+    "grade": 1
+   }
+  ]
+ },
+ {
+  "query": "llm agents engineer",
+  "grades": [
+   {
+    "id": 4390,
+    "grade": 2
+   }
+  ]
+ },
+ {
+  "query": "forward deployed engineer",
+  "grades": [
+   {
+    "id": 1484,
+    "grade": 2
+   },
+   {
+    "id": 19940,
+    "grade": 2
+   },
+   {
+    "id": 11810,
+    "grade": 2
+   },
+   {
+    "id": 5263,
+    "grade": 2
+   }
+  ]
+ },
+ {
+  "query": "data engineer entry level",
+  "grades": [
+   {
+    "id": 28134,
+    "grade": 2
+   },
+   {
+    "id": 12213,
+    "grade": 1
+   },
+   {
+    "id": 12218,
+    "grade": 1
+   },
+   {
+    "id": 12214,
+    "grade": 1
+   },
+   {
+    "id": 12208,
+    "grade": 1
+   },
+   {
+    "id": 19259,
+    "grade": 1
+   },
+   {
+    "id": 12215,
+    "grade": 1
+   },
+   {
+    "id": 4514,
+    "grade": 1
+   },
+   {
+    "id": 16770,
+    "grade": 1
+   }
+  ]
+ },
+ {
+  "query": "junior devops or site reliability engineer",
+  "grades": [
+   {
+    "id": 1723,
+    "grade": 1
+   },
+   {
+    "id": 11943,
+    "grade": 0
+   },
+   {
+    "id": 1129,
+    "grade": 2
+   },
+   {
+    "id": 26640,
+    "grade": 0
+   },
+   {
+    "id": 5263,
+    "grade": 0
+   },
+   {
+    "id": 4123,
+    "grade": 1
+   }
+  ]
+ },
+ {
+  "query": "voice ai engineer",
+  "grades": [
+   {
+    "id": 6876,
+    "grade": 1
+   },
+   {
+    "id": 6877,
+    "grade": 1
+   },
+   {
+    "id": 1027,
+    "grade": 2
+   }
+  ]
+ },
+ {
+  "query": "founding engineer at a startup",
+  "grades": [
+   {
+    "id": 1467,
+    "grade": 1
+   },
+   {
+    "id": 16299,
+    "grade": 2
+   }
+  ]
+ }
+]

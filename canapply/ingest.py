@@ -60,31 +60,56 @@ on conflict (source, board_token, ext_id) do update set
   content_hash = excluded.content_hash, posted_at = coalesce(excluded.posted_at, jobs.posted_at),
   is_tech = excluded.is_tech, level_rule = excluded.level_rule, countries = excluded.countries,
   last_seen_at = now(), closed_at = null
-returning (xmax = 0) as inserted
 """
 
 
+def plan(rows: list[dict], existing: dict[str, str]) -> tuple[list[dict], list[str], int]:
+    """Split one board's postings into (rows to write, ids that are unchanged, how many are new).
+    `existing` maps ext_id -> content_hash for what the database already has for this board."""
+    write, same, added = [], [], 0
+    for r in rows:
+        old = existing.get(r["ext_id"])
+        if old is None:
+            added += 1
+            write.append(r)
+        elif old != r["content_hash"]:
+            write.append(r)
+        else:
+            same.append(r["ext_id"])
+    return write, same, added
+
+
 def store(src: str, tok: str, company: str | None, jobs: list[dict]) -> tuple[int, int]:
-    """Upsert one board's postings and close the ones that disappeared. Returns (added, closed)."""
+    """Upsert one board's postings and close the ones that disappeared. Returns (added, closed).
+
+    A handful of statements per board, not one per posting: the database may be on another continent, and
+    most postings have not changed since the last run. Unchanged postings (same title, location and text) only
+    get their last-seen time touched, so a refresh does not rewrite the whole index."""
     company = company or (db.q1("select company from boards where source=%s and token=%s", (src, tok)) or {}
                           ).get("company") or tok.replace("-", " ").title()
-    added, seen = 0, []
-    with db.conn() as c:
-        for j in jobs:
-            if not j["title"] or not j["url"] or len(j["description"]) < 80:
-                continue
-            countries, _, _ = geo.parse_location(j["location_raw"])
-            row = dict(j, source=src, board_token=tok, company=company,
-                       content_hash=content_hash(j["title"], j["location_raw"], j["description"]),
-                       is_tech=rules.is_tech(j["title"], j["department"]),
-                       level_rule=rules.level_from_title(j["title"]), countries=countries or None)
-            r = c.execute(UPSERT, row).fetchone()
-            added += 1 if r["inserted"] else 0
-            seen.append(j["ext_id"])
+    rows = []
+    for j in jobs:
+        if not j["title"] or not j["url"] or len(j["description"]) < 80:
+            continue
+        countries, _, _ = geo.parse_location(j["location_raw"])
+        rows.append(dict(j, source=src, board_token=tok, company=company,
+                         content_hash=content_hash(j["title"], j["location_raw"], j["description"]),
+                         is_tech=rules.is_tech(j["title"], j["department"]),
+                         level_rule=rules.level_from_title(j["title"]), countries=countries or None))
+    rows = list({r["ext_id"]: r for r in rows}.values())          # a board occasionally lists a posting twice
+    with db.conn() as c, c.transaction():
+        existing = {r["ext_id"]: r["content_hash"] for r in c.execute(
+            "select ext_id, content_hash from jobs where source=%s and board_token=%s", (src, tok)).fetchall()}
+        write, same, added = plan(rows, existing)
+        if write:
+            c.cursor().executemany(UPSERT, write)
+        if same:
+            c.execute("update jobs set last_seen_at = now(), closed_at = null "
+                      "where source=%s and board_token=%s and ext_id = any(%s)", (src, tok, same))
         closed = c.execute(
             "update jobs set closed_at = now() where source=%s and board_token=%s and closed_at is null "
-            "and not (ext_id = any(%s))", (src, tok, seen)).rowcount
-    db.ex("update boards set company=%s where source=%s and token=%s", (company, src, tok))
+            "and not (ext_id = any(%s))", (src, tok, [r["ext_id"] for r in rows])).rowcount
+        c.execute("update boards set company=%s where source=%s and token=%s", (company, src, tok))
     return added, closed
 
 

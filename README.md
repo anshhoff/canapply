@@ -15,7 +15,9 @@ and sorts jobs into three buckets:
 
 It runs as a Telegram bot: [@CanApplyJobsBot](https://t.me/CanApplyJobsBot).
 
-> Status on 19 Nov 2026: built and running locally. Not yet deployed for other people.
+> Status on 19 Nov 2026: live. The bot runs on a free Render instance with a Neon Postgres database
+> ([status](https://canapply.onrender.com/status)); the first message after a quiet spell can take up to a minute
+> while the free instance wakes. The index refreshes every 6 hours from GitHub Actions.
 
 ## What the data says
 

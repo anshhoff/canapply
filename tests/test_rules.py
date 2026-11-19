@@ -61,3 +61,11 @@ def test_quote_must_be_verbatim():
     assert not quote_in_text("5+ years of experience with Python", text)    # a changed number is not
     assert not quote_in_text("Requires a US work visa", text)               # invented text is not
     assert not quote_in_text("", text) and not quote_in_text(None, text)
+
+
+def test_ingest_plan_writes_only_new_and_changed_postings():
+    from canapply.ingest import plan
+    rows = [{"ext_id": "a", "content_hash": "1"}, {"ext_id": "b", "content_hash": "2"}, {"ext_id": "c", "content_hash": "3"}]
+    write, same, added = plan(rows, {"a": "1", "b": "old"})
+    assert [r["ext_id"] for r in write] == ["b", "c"]      # changed text, and brand new
+    assert same == ["a"] and added == 1

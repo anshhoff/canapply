@@ -1,0 +1,318 @@
+[
+ {
+  "id": 2946,
+  "bucket": "cannot",
+  "hard_misses": [
+   "on-site US",
+   "requires 5+ years"
+  ],
+  "soft_misses": [],
+  "reason": "On-site SF senior SRE needing 5+ years."
+ },
+ {
+  "id": 3643,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to US (location United States)"
+  ],
+  "soft_misses": [],
+  "reason": "Remote listed against United States, not clearly open to India."
+ },
+ {
+  "id": 3816,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Fully remote, no country restriction or years requirement."
+ },
+ {
+  "id": 3994,
+  "bucket": "cannot",
+  "hard_misses": [
+   "on-site US",
+   "requires 5+ years, founding/lead"
+  ],
+  "soft_misses": [],
+  "reason": "On-site SF founding role needing 5+ years."
+ },
+ {
+  "id": 4095,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Hybrid US role with no stated years but no sponsorship statement."
+ },
+ {
+  "id": 4210,
+  "bucket": "cannot",
+  "hard_misses": [
+   "manager role"
+  ],
+  "soft_misses": [],
+  "reason": "Engineering manager role."
+ },
+ {
+  "id": 4217,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience"
+  ],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 4310,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, 4+ years"
+  ],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Senior iOS role needing 4+ years."
+ },
+ {
+  "id": 4340,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 7+ years"
+  ],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Requires 7+ years."
+ },
+ {
+  "id": 4370,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience"
+  ],
+  "soft_misses": [
+   "hybrid in Sydney, no sponsorship statement"
+  ],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 4397,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid/in-person Europe, no visa sponsorship statement"
+  ],
+  "reason": "No years stated but Europe-based with no sponsorship statement."
+ },
+ {
+  "id": 4411,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 3+ years data engineering and 8+ years software"
+  ],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Requires 8+ years."
+ },
+ {
+  "id": 4418,
+  "bucket": "cannot",
+  "hard_misses": [
+   "manager role"
+  ],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Engineering manager role."
+ },
+ {
+  "id": 4444,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience",
+   "requires fluent Japanese"
+  ],
+  "soft_misses": [
+   "hybrid in Tokyo"
+  ],
+  "reason": "Requires 5+ years and Japanese."
+ },
+ {
+  "id": 4453,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "No years stated, hybrid SF with no sponsorship statement."
+ },
+ {
+  "id": 4461,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience"
+  ],
+  "soft_misses": [
+   "hybrid in Abu Dhabi"
+  ],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 4465,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience"
+  ],
+  "soft_misses": [
+   "hybrid in Seoul"
+  ],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 4476,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 6+ years"
+  ],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Requires 6+ years."
+ },
+ {
+  "id": 4544,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 6+ years, senior/tech lead"
+  ],
+  "soft_misses": [
+   "on-site/hybrid US"
+  ],
+  "reason": "Requires 6+ years."
+ },
+ {
+  "id": 4660,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience"
+  ],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 4707,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience",
+   "requires Mandarin"
+  ],
+  "soft_misses": [
+   "hybrid in Singapore"
+  ],
+  "reason": "Requires 5+ years and Mandarin."
+ },
+ {
+  "id": 4770,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience"
+  ],
+  "soft_misses": [
+   "hybrid in London"
+  ],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 4808,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience",
+   "requires Spanish/Portuguese"
+  ],
+  "soft_misses": [
+   "hybrid in Brazil"
+  ],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 4814,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience"
+  ],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 4849,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid/on-site in US, no visa sponsorship statement"
+  ],
+  "reason": "No years stated, hybrid SF with no sponsorship statement."
+ },
+ {
+  "id": 4942,
+  "bucket": "cannot",
+  "hard_misses": [
+   "manager role"
+  ],
+  "soft_misses": [
+   "hybrid in Europe"
+  ],
+  "reason": "Engineering manager role."
+ },
+ {
+  "id": 5018,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 4+ years customer-facing role"
+  ],
+  "soft_misses": [
+   "must be in SF Bay Area, hybrid"
+  ],
+  "reason": "Requires 4+ years and Bay Area presence."
+ },
+ {
+  "id": 5029,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 5+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Requires 5+ years."
+ },
+ {
+  "id": 5099,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "in-person Belgrade, no visa sponsorship statement"
+  ],
+  "reason": "Internship in Belgrade; Serbian enrolment is alternatively satisfied by self-taught."
+ },
+ {
+  "id": 5186,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in Europe, no sponsorship statement"
+  ],
+  "reason": "No years stated, 'experienced' ML role, hybrid abroad."
+ },
+ {
+  "id": 5266,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India-based, no years requirement."
+ }
+]

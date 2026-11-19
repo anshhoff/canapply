@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+data/raw/
+data/resume*.pdf
+*.log
+.DS_Store
+
+# Personal working notes
+NOTES_MORNING.md
+PROGRESS.md
+logs/
+
+# Labelling inputs contain the full text of third-party job postings: keep them out of the repo.
+evals/labeling/*.json
+!evals/labeling/out_*.json
+# Timestamped eval runs; latest.json and ranking_runs.json are the ones that are kept.
+evals/results/2026-*.json

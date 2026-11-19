@@ -1,0 +1,90 @@
+[
+ {
+  "id": 16831,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "On-site London internship, no work rights, visa sponsorship not stated"
+  ],
+  "reason": "Student ML internship is a fit; only miss is UK location without stated sponsorship."
+ },
+ {
+  "id": 17031,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Campus full-time role in US, and the posting says it sponsors work visas for full-time positions; no experience bar."
+ },
+ {
+  "id": 18623,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid Malmo/London, no work rights, sponsorship not stated"
+  ],
+  "reason": "No experience years stated; only the Sweden/UK hybrid location is a soft miss."
+ },
+ {
+  "id": 19246,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid Toronto, no work rights, sponsorship not stated"
+  ],
+  "reason": "0-3 years requirement fits 0.8 years; only the Canada hybrid location is a soft miss."
+ },
+ {
+  "id": 29606,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid Ghent internship, no work rights, sponsorship not stated"
+  ],
+  "reason": "Currently pursuing BS is met; only the Belgium hybrid location is a soft miss."
+ },
+ {
+  "id": 29949,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid London, no work rights, sponsorship not stated"
+  ],
+  "reason": "Needs 6+ months post-college experience, which candidate meets; only UK hybrid is a soft miss."
+ },
+ {
+  "id": 29985,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid London, no work rights, sponsorship not stated"
+  ],
+  "reason": "New grad graduating 2027 or before matches; only UK hybrid is a soft miss."
+ },
+ {
+  "id": 29987,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid Seoul, no work rights, sponsorship not stated"
+  ],
+  "reason": "Graduating 2026 or 2027 matches; only Korea hybrid is a soft miss (fluent business Korean also required, not a rubric item)."
+ },
+ {
+  "id": 30143,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid Palo Alto, no US work rights, sponsorship not stated"
+  ],
+  "reason": "New grad role with no stated year or experience bar; only US hybrid is a soft miss."
+ },
+ {
+  "id": 30447,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid Stockholm/London, no work rights, sponsorship not stated"
+  ],
+  "reason": "No explicit years required; only the Europe hybrid location is a soft miss."
+ }
+]

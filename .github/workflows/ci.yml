@@ -1,0 +1,15 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+      - run: uv run ruff check canapply evals tests
+      # Unit tests + the eval regression gate. No database, no API key: everything here is deterministic.
+      - run: uv run pytest

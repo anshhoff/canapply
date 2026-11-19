@@ -1,0 +1,227 @@
+[
+ {
+  "id": 26609,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "4+ years required"
+  ],
+  "soft_misses": [
+   "hybrid/onsite abroad, sponsorship not stated"
+  ],
+  "reason": "Senior SRE needing 4+ years."
+ },
+ {
+  "id": 26665,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "7+ years required"
+  ],
+  "soft_misses": [
+   "hybrid/onsite abroad, sponsorship not stated"
+  ],
+  "reason": "Senior iOS needing 7+ years."
+ },
+ {
+  "id": 27014,
+  "bucket": "cannot",
+  "hard_misses": [
+   "manager role",
+   "5+ years management, 7+ years total",
+   "remote US only"
+  ],
+  "soft_misses": [],
+  "reason": "Senior engineering manager, US-only remote."
+ },
+ {
+  "id": 27212,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "US internship but posting sponsors visas; graduating by June 2028 fits 2027."
+ },
+ {
+  "id": 28133,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Intern role in Hyderabad, India, entry-level requirements."
+ },
+ {
+  "id": 28274,
+  "bucket": "cannot",
+  "hard_misses": [
+   "principal role",
+   "10+ years required",
+   "remote US only"
+  ],
+  "soft_misses": [],
+  "reason": "Principal role, 10+ years, Remote-US."
+ },
+ {
+  "id": 28672,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff role",
+   "5+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Staff SRE needing 5+ years."
+ },
+ {
+  "id": 28738,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Remote Asia incl. India; 1-5 yrs QA, 1 year is within half year of 0.8."
+ },
+ {
+  "id": 28788,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Senior engineer needing 5+ years."
+ },
+ {
+  "id": 29873,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in UK, sponsorship not stated"
+  ],
+  "reason": "Hybrid London role with no stated years; only visa unknown."
+ },
+ {
+  "id": 29895,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in US, sponsorship not stated"
+  ],
+  "reason": "1+ year analytical role is met; hybrid NY with no sponsorship statement."
+ },
+ {
+  "id": 29994,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "2+ years frontend vs 0.8",
+   "hybrid in US, sponsorship not stated"
+  ],
+  "reason": "2+ years required plus hybrid US with no visa statement."
+ },
+ {
+  "id": 30133,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite in UK, sponsorship not stated"
+  ],
+  "reason": "Onsite London internship; student requirement met, visa unknown."
+ },
+ {
+  "id": 30134,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship, no sponsorship stated"
+  ],
+  "soft_misses": [],
+  "reason": "Onsite US internship with no stated visa sponsorship."
+ },
+ {
+  "id": 30142,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in US, sponsorship not stated"
+  ],
+  "reason": "New grad role, no years required; hybrid NY with no visa statement."
+ },
+ {
+  "id": 30464,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to US ET timezone"
+  ],
+  "soft_misses": [],
+  "reason": "Remote only within US Eastern time zone."
+ },
+ {
+  "id": 30530,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote US/Canada only",
+   "2+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Remote for US/Canada located candidates, 2+ years."
+ },
+ {
+  "id": 30535,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "4+ years required",
+   "remote US/Canada only"
+  ],
+  "soft_misses": [],
+  "reason": "Senior iOS, 4+ years, US/Canada remote."
+ },
+ {
+  "id": 31529,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff role",
+   "US hybrid, no sponsorship stated"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/Staff ML role."
+ },
+ {
+  "id": 31621,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in US, sponsorship not stated"
+  ],
+  "reason": "No years stated; hybrid Foster City with no visa statement."
+ },
+ {
+  "id": 31629,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship, no sponsorship stated",
+   "M.S./PhD enrolment required"
+  ],
+  "soft_misses": [
+   "graduation Fall 2027-Summer 2028"
+  ],
+  "reason": "US internship for MS/PhD students, no sponsorship."
+ },
+ {
+  "id": 31630,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship, no sponsorship stated"
+  ],
+  "soft_misses": [
+   "graduation Fall 2027-Summer 2028"
+  ],
+  "reason": "US internship with no sponsorship; graduation window is a year off."
+ },
+ {
+  "id": 31631,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship, no sponsorship stated"
+  ],
+  "soft_misses": [
+   "graduation Fall 2027-Summer 2028"
+  ],
+  "reason": "US internship with no sponsorship; graduation window is a year off."
+ }
+]

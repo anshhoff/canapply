@@ -1,0 +1,271 @@
+[
+ {
+  "id": 716,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "US onsite but posting says US visa sponsorship available; no experience years required."
+ },
+ {
+  "id": 1077,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "SF onsite but company provides visa sponsorship support; no years required."
+ },
+ {
+  "id": 1080,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "SF onsite but company provides visa sponsorship support; no years required."
+ },
+ {
+  "id": 1081,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "SF onsite but visa sponsorship offered; says strict years not required."
+ },
+ {
+  "id": 1243,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite/hybrid in US, no visa statement"
+  ],
+  "reason": "No years required but SF onsite with no visa statement."
+ },
+ {
+  "id": 1353,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to NAMER and LatAm, excludes India"
+  ],
+  "soft_misses": [],
+  "reason": "Remote region does not include India."
+ },
+ {
+  "id": 2009,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Staff-level SRE role"
+  ],
+  "soft_misses": [
+   "onsite Israel, no visa statement"
+  ],
+  "reason": "Staff role in Israel."
+ },
+ {
+  "id": 2374,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 3-5+ years backend"
+  ],
+  "soft_misses": [
+   "onsite Prague, no visa statement"
+  ],
+  "reason": "Needs 3-5+ years and onsite in Czechia."
+ },
+ {
+  "id": 2662,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite San Jose, no visa statement"
+  ],
+  "reason": "No stated years but in-person US with no visa statement."
+ },
+ {
+  "id": 4108,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid SF/NYC, no visa statement"
+  ],
+  "reason": "Internships count as experience; US hybrid without visa statement."
+ },
+ {
+  "id": 4416,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite/hybrid in US, no visa statement"
+  ],
+  "reason": "No years stated; US onsite-ish with no visa statement."
+ },
+ {
+  "id": 4588,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid SF, no visa statement"
+  ],
+  "reason": "No years stated; SF hybrid without visa statement."
+ },
+ {
+  "id": 4650,
+  "bucket": "cannot",
+  "hard_misses": [
+   "lead/own technical direction and roadmap, senior-level scope"
+  ],
+  "soft_misses": [
+   "hybrid Seattle, no visa statement"
+  ],
+  "reason": "Lead-level 0-to-1 ML role in the US."
+ },
+ {
+  "id": 4772,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid SF, no visa statement"
+  ],
+  "reason": "Experienced Android role but no years stated; SF hybrid no visa statement."
+ },
+ {
+  "id": 4806,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior and Staff engineers wanted"
+  ],
+  "soft_misses": [
+   "hybrid NYC, no visa statement"
+  ],
+  "reason": "Senior/staff role."
+ },
+ {
+  "id": 5263,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid SF, no visa statement"
+  ],
+  "reason": "No years stated; SF hybrid without visa statement."
+ },
+ {
+  "id": 5314,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid SF, no visa statement"
+  ],
+  "reason": "No years stated; SF hybrid without visa statement."
+ },
+ {
+  "id": 5320,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "SF/Palo Alto role, no visa statement"
+  ],
+  "reason": "No years stated; US-located contractor role without visa statement."
+ },
+ {
+  "id": 5323,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite Singapore, no visa statement"
+  ],
+  "reason": "Needs 1 year experience (0.8 meets); Singapore onsite with no visa statement."
+ },
+ {
+  "id": 5462,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid NYC/SF, no visa statement"
+  ],
+  "reason": "Needs 1 year mobile (0.8 meets); remote options are US/Canada only, hybrid in US unsponsored."
+ },
+ {
+  "id": 5894,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite London, no visa statement"
+  ],
+  "reason": "No years stated; London onsite without visa statement."
+ },
+ {
+  "id": 5895,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite London, no visa statement"
+  ],
+  "reason": "No years stated; London onsite without visa statement."
+ },
+ {
+  "id": 8215,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "London onsite but Anthropic says it sponsors visas; no explicit years."
+ },
+ {
+  "id": 8240,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite US, no visa statement seen",
+   "requires prior BSA/CPQ launch ownership experience"
+  ],
+  "reason": "US onsite with domain experience requirements."
+ },
+ {
+  "id": 8551,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite US, no visa statement seen"
+  ],
+  "reason": "5+ years only preferred; US onsite without visa statement."
+ },
+ {
+  "id": 8571,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Hybrid/remote-friendly and Anthropic sponsors visas; no explicit years."
+ },
+ {
+  "id": 8881,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 3+ years professional experience"
+  ],
+  "soft_misses": [
+   "Singapore, no visa statement"
+  ],
+  "reason": "Needs 3+ years."
+ },
+ {
+  "id": 8885,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Singapore internship, no visa statement"
+  ],
+  "reason": "Bachelor's student intern fits; Singapore location with no visa statement."
+ },
+ {
+  "id": 16337,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "NYC onsite, no visa statement"
+  ],
+  "reason": "Graduating-2027 bachelor's accepted; US location no visa statement."
+ },
+ {
+  "id": 16346,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Chicago/NY, no visa statement"
+  ],
+  "reason": "No years stated; US location without visa statement."
+ }
+]

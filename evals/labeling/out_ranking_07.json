@@ -1,0 +1,297 @@
+[
+ {
+  "id": 15259,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India-based intermediate role with no stated years of experience."
+ },
+ {
+  "id": 15261,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India-based intermediate role with no stated years of experience."
+ },
+ {
+  "id": 15386,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote for UK-based candidates only",
+   "senior/staff-level range"
+  ],
+  "soft_misses": [],
+  "reason": "Open only to candidates based in the UK."
+ },
+ {
+  "id": 15387,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore role with no stated years requirement."
+ },
+ {
+  "id": 15452,
+  "bucket": "cannot",
+  "hard_misses": [
+   "6-10 years experience required",
+   "SDE III senior role"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 6-10 years of experience."
+ },
+ {
+  "id": 15467,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Generic remote posting with no stated restrictions."
+ },
+ {
+  "id": 15473,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site/located in Portugal, no visa statement"
+  ],
+  "reason": "Lisbon role, no sponsorship statement; otherwise fits."
+ },
+ {
+  "id": 15474,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site/located in Latvia, no visa statement"
+  ],
+  "reason": "Riga role, no sponsorship statement; otherwise fits."
+ },
+ {
+  "id": 16324,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience required"
+  ],
+  "soft_misses": [
+   "US-based, no visa statement"
+  ],
+  "reason": "Needs 5+ years of experience."
+ },
+ {
+  "id": 16371,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US-based internship without US work rights, no visa sponsorship stated"
+  ],
+  "soft_misses": [],
+  "reason": "US internship and candidate has no US work rights."
+ },
+ {
+  "id": 16424,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Mumbai role with no stated years requirement."
+ },
+ {
+  "id": 16426,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years experience required"
+  ],
+  "soft_misses": [
+   "US-based, no visa statement"
+  ],
+  "reason": "Needs 3+ years of experience."
+ },
+ {
+  "id": 16497,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "2-5 years experience required (about 1 year more)"
+  ],
+  "reason": "Requires 2+ years; about a year above candidate."
+ },
+ {
+  "id": 16580,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 5+ years required",
+   "remote limited to Canadian provinces"
+  ],
+  "soft_misses": [],
+  "reason": "Senior role limited to Canada."
+ },
+ {
+  "id": 16581,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 5+ years required",
+   "remote limited to the US"
+  ],
+  "soft_misses": [],
+  "reason": "Senior role limited to the US."
+ },
+ {
+  "id": 17032,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship without US work rights; visa sponsorship only for full-time, CPT/OPT only"
+  ],
+  "soft_misses": [],
+  "reason": "US internship, sponsorship stated only for full-time."
+ },
+ {
+  "id": 17039,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship without US work rights; visa sponsorship only for full-time, CPT/OPT only"
+  ],
+  "soft_misses": [],
+  "reason": "US internship, sponsorship stated only for full-time."
+ },
+ {
+  "id": 17068,
+  "bucket": "cannot",
+  "hard_misses": [
+   "7+ years experience required"
+  ],
+  "soft_misses": [
+   "US-based, no visa statement"
+  ],
+  "reason": "Needs 7+ years of experience."
+ },
+ {
+  "id": 17087,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience required"
+  ],
+  "soft_misses": [
+   "London-based, no visa statement"
+  ],
+  "reason": "Needs 5+ years of experience."
+ },
+ {
+  "id": 17626,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role"
+  ],
+  "soft_misses": [
+   "US on-site, no visa statement"
+  ],
+  "reason": "Senior role in Arizona."
+ },
+ {
+  "id": 17680,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role"
+  ],
+  "soft_misses": [
+   "US on-site, no visa statement"
+  ],
+  "reason": "Senior role in California."
+ },
+ {
+  "id": 17905,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role"
+  ],
+  "soft_misses": [
+   "US hybrid, no visa statement"
+  ],
+  "reason": "Senior role in San Francisco."
+ },
+ {
+  "id": 17924,
+  "bucket": "cannot",
+  "hard_misses": [
+   "must be enrolled at a Canadian university"
+  ],
+  "soft_misses": [
+   "Toronto hybrid, no visa statement"
+  ],
+  "reason": "Internship requires enrolment at a university in Canada."
+ },
+ {
+  "id": 17961,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote only within Canada or US; US offices"
+  ],
+  "soft_misses": [],
+  "reason": "Not open to candidates in India."
+ },
+ {
+  "id": 18092,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "2+ years experience required (about 1 year more)",
+   "on-site Seoul, no visa statement"
+  ],
+  "reason": "Two soft misses: experience and relocation without visa statement."
+ },
+ {
+  "id": 18093,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site Seoul, no visa statement"
+  ],
+  "reason": "Seoul internship; graduation timing fits, fluent Korean also asked."
+ },
+ {
+  "id": 18159,
+  "bucket": "cannot",
+  "hard_misses": [
+   "8 years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 8 years of experience."
+ },
+ {
+  "id": 18547,
+  "bucket": "cannot",
+  "hard_misses": [
+   "lead role, multi-year experience",
+   "UK-only location"
+  ],
+  "soft_misses": [],
+  "reason": "Lead role limited to the UK."
+ },
+ {
+  "id": 18624,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience required"
+  ],
+  "soft_misses": [
+   "London hybrid, no visa statement"
+  ],
+  "reason": "Needs 5+ years of experience."
+ },
+ {
+  "id": 18625,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience required"
+  ],
+  "soft_misses": [
+   "Malmo hybrid, no visa statement"
+  ],
+  "reason": "Needs 5+ years of experience."
+ },
+ {
+  "id": 18820,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US-based internship without US work rights, no visa sponsorship stated"
+  ],
+  "soft_misses": [],
+  "reason": "US internship and candidate has no US work rights."
+ }
+]

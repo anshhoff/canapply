@@ -1,0 +1,283 @@
+[
+ {
+  "id": 30306,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years PM experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Senior 5-12 yr PM role."
+ },
+ {
+  "id": 5489,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4+ years experience",
+   "US hybrid/remote US only"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 4+ years and US location."
+ },
+ {
+  "id": 6759,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Remote limited to United States"
+  ],
+  "soft_misses": [],
+  "reason": "US-only remote."
+ },
+ {
+  "id": 1709,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Remote limited to North America",
+   "requires prior deep technical support experience"
+  ],
+  "soft_misses": [],
+  "reason": "North America-only remote."
+ },
+ {
+  "id": 18007,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site/US or Canada remote only; no visa statement"
+  ],
+  "reason": "1-4 yrs fits; location is US/Canada with no sponsorship stated."
+ },
+ {
+  "id": 1431,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Remote limited to Europe",
+   "5+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Europe-only remote and 5+ years."
+ },
+ {
+  "id": 6833,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Remote US only",
+   "6+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "US remote and 6+ years."
+ },
+ {
+  "id": 16430,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "Amsterdam on-site, visa not sponsored explicitly",
+   "graduation 2028 vs 2027"
+  ],
+  "reason": "Two soft misses: location and grad year."
+ },
+ {
+  "id": 25169,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Singapore internship, no work rights, no sponsorship stated"
+  ],
+  "reason": "Bachelor's student fits; only location is a soft miss."
+ },
+ {
+  "id": 29629,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Hybrid in Belgium, no work rights, no sponsorship stated"
+  ],
+  "reason": "Internship fits; only hybrid Belgium location is soft."
+ },
+ {
+  "id": 5116,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "In-person London, no work rights, no sponsorship stated"
+  ],
+  "reason": "Internship fits; only London in-person is soft."
+ },
+ {
+  "id": 21491,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US-based internship without US work rights",
+   "requires prior research experience"
+  ],
+  "soft_misses": [],
+  "reason": "US internship."
+ },
+ {
+  "id": 7887,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "Bangkok on-site, no sponsorship stated",
+   "enrolled 3rd-year or below vs graduating 2027"
+  ],
+  "reason": "Two soft misses: location and year-of-study."
+ },
+ {
+  "id": 16761,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience",
+   "US on-site"
+  ],
+  "soft_misses": [],
+  "reason": "Experienced data center role in US."
+ },
+ {
+  "id": 4562,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience",
+   "US hybrid"
+  ],
+  "soft_misses": [],
+  "reason": "5+ years, US."
+ },
+ {
+  "id": 16797,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "New York on-site, no work rights, no sponsorship stated"
+  ],
+  "reason": "New grad role fits; only US location is soft."
+ },
+ {
+  "id": 30162,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US security clearance",
+   "2+ years program management"
+  ],
+  "soft_misses": [],
+  "reason": "Clearance and experience."
+ },
+ {
+  "id": 24251,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience",
+   "Sr. role, US onsite"
+  ],
+  "soft_misses": [],
+  "reason": "Senior role."
+ },
+ {
+  "id": 15318,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior Release Engineer."
+ },
+ {
+  "id": 5800,
+  "bucket": "cannot",
+  "hard_misses": [
+   "7+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "7+ years."
+ },
+ {
+  "id": 11235,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "3+ years security ops."
+ },
+ {
+  "id": 5812,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4-8 years experience"
+  ],
+  "soft_misses": [],
+  "reason": "4-8 years."
+ },
+ {
+  "id": 16496,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "SDE II in Bangalore with no stated years requirement."
+ },
+ {
+  "id": 28407,
+  "bucket": "cannot",
+  "hard_misses": [
+   "8+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "8+ years."
+ },
+ {
+  "id": 31424,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "4+ years."
+ },
+ {
+  "id": 20076,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Remote US only",
+   "senior role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, US remote."
+ },
+ {
+  "id": 25654,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "3+ years required."
+ },
+ {
+  "id": 25827,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Remote US only",
+   "4-5+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "US-only, experienced."
+ },
+ {
+  "id": 20643,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Must be located in North America"
+  ],
+  "soft_misses": [],
+  "reason": "North America only."
+ },
+ {
+  "id": 6586,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Role based in SF in-person, no sponsorship stated"
+  ],
+  "reason": "No years required; SF on-site is the one soft miss."
+ }
+]

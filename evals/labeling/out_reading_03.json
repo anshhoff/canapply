@@ -1,0 +1,282 @@
+[
+ {
+  "id": 13742,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote US only",
+   "4+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "US-only remote role needing 4+ years."
+ },
+ {
+  "id": 1128,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid Canada, no visa statement",
+   "graduating 2026 vs candidate 2027"
+  ],
+  "reason": "Two soft misses: hybrid in Canada and 2026 grad year."
+ },
+ {
+  "id": 8896,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site Singapore, no visa statement"
+  ],
+  "reason": "Student-friendly intern role but located in Singapore without visa info."
+ },
+ {
+  "id": 11113,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US-based internship without US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Hybrid New York internship."
+ },
+ {
+  "id": 27495,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site Ireland, no visa statement",
+   "graduating 2028 vs candidate 2027"
+  ],
+  "reason": "Two soft misses: Dublin on-site and 2028 grad year."
+ },
+ {
+  "id": 30174,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US security clearance required",
+   "US-based internship"
+  ],
+  "soft_misses": [],
+  "reason": "USG internship requires clearance and is in New York."
+ },
+ {
+  "id": 13006,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Paris hybrid, no visa statement"
+  ],
+  "reason": "Intern role targeting 2027 start fits, only location in France is a soft miss."
+ },
+ {
+  "id": 23355,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years required",
+   "ITAR US-person requirement"
+  ],
+  "soft_misses": [],
+  "reason": "Experienced on-site US role with ITAR restriction."
+ },
+ {
+  "id": 3962,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site NY/Stockholm/SF, no visa statement"
+  ],
+  "reason": "No explicit years stated; only on-site abroad is a soft miss."
+ },
+ {
+  "id": 3830,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "2+ years required vs 0.8",
+   "on-site San Francisco, no visa statement"
+  ],
+  "reason": "Two soft misses: experience gap and on-site US."
+ },
+ {
+  "id": 6133,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Senior PM needing 5+ years."
+ },
+ {
+  "id": 12602,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff role",
+   "7+ years required",
+   "MS/PhD"
+  ],
+  "soft_misses": [],
+  "reason": "Staff-level role with 7-10+ years."
+ },
+ {
+  "id": 5832,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Senior kernel role needing 5+ years."
+ },
+ {
+  "id": 5827,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 5+ years SRE experience."
+ },
+ {
+  "id": 13792,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5-8 years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 5-8 years."
+ },
+ {
+  "id": 25541,
+  "bucket": "cannot",
+  "hard_misses": [
+   "7+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 7+ years."
+ },
+ {
+  "id": 15557,
+  "bucket": "cannot",
+  "hard_misses": [
+   "lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Role is a validation lead driving strategy."
+ },
+ {
+  "id": 15286,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore-based role with no stated years or other blockers."
+ },
+ {
+  "id": 28799,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bengaluru role asking 1-2 years, close to candidate's 0.8."
+ },
+ {
+  "id": 6941,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote US/Canada only",
+   "8+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "US/Canada remote needing 8+ years."
+ },
+ {
+  "id": 30694,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote US only",
+   "3+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "US-based consultant role needing 3+ years."
+ },
+ {
+  "id": 15439,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to Israel/Poland/UK"
+  ],
+  "soft_misses": [],
+  "reason": "Remote locations exclude India."
+ },
+ {
+  "id": 30791,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote Spain only",
+   "2+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Spain-based role needing 2+ years."
+ },
+ {
+  "id": 15262,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote Canada/US only"
+  ],
+  "soft_misses": [],
+  "reason": "Remote limited to Canada and US."
+ },
+ {
+  "id": 21201,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote West US only",
+   "senior-level sales engineer"
+  ],
+  "soft_misses": [],
+  "reason": "US-residents-only remote role."
+ },
+ {
+  "id": 7649,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site Bangkok, no visa statement"
+  ],
+  "reason": "Student internship fits but is Bangkok-based."
+ },
+ {
+  "id": 10209,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site Spain, no visa statement"
+  ],
+  "reason": "Graduate program in Madrid; only location is a soft miss under rubric."
+ },
+ {
+  "id": 30139,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US security clearance required"
+  ],
+  "soft_misses": [],
+  "reason": "Requires US clearance."
+ },
+ {
+  "id": 23182,
+  "bucket": "cannot",
+  "hard_misses": [
+   "ITAR US-person requirement"
+  ],
+  "soft_misses": [],
+  "reason": "ITAR restricts to US persons."
+ },
+ {
+  "id": 29941,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US security clearance required"
+  ],
+  "soft_misses": [],
+  "reason": "Requires US clearance."
+ }
+]

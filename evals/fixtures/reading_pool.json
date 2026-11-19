@@ -1,0 +1,4335 @@
+{
+ "note": "Snapshot of the 120-posting eval sample: the stored requirements reading for each posting and its gold verdict. Used by tests/test_eval_regression.py so a change to the eligibility code that lowers accuracy fails CI. No posting text is stored here.",
+ "labelled_by": "claude (rubric in evals/RUBRIC.md); human labels pending",
+ "snapshot": "2026-11-18",
+ "profile": {
+  "country": "IN",
+  "work_auth": [
+   "IN"
+  ],
+  "open_to_relocate": true,
+  "years_experience": 0.8,
+  "is_student": true,
+  "grad_year": 2027,
+  "degree": "bachelors",
+  "wants": [
+   "internship",
+   "full_time"
+  ]
+ },
+ "items": [
+  {
+   "id": 18875,
+   "title": "Business Systems Analyst, ServiceNow",
+   "company": "Okta",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "mid",
+    "degree": "bachelors",
+    "skills": [
+     "servicenow",
+     "itsm",
+     "itom",
+     "hrsd",
+     "csm",
+     "ham",
+     "sam",
+     "javascript"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bengaluru, India",
+    "remote_regions": [],
+    "min_years_quote": "2\u20135 years of experience as a business systems analyst, business analyst, or ServiceNow functional consultant or administrator.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 2136,
+   "title": "Field Engineer - India",
+   "company": "Cursor",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "can_apply",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "field engineering",
+     "solutions architecture",
+     "pre-sales",
+     "consulting"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Bengaluru | New Delhi | Mumbai, India",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 28749,
+   "title": "Associate Security Engineer - 11925",
+   "company": "Coupa",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "can_apply",
+   "requirements": {
+    "level": "junior",
+    "degree": "bachelors",
+    "skills": [
+     "aws",
+     "gcp",
+     "azure",
+     "python",
+     "bash",
+     "javascript",
+     "iam",
+     "ci/cd"
+    ],
+    "student": "none",
+    "min_years": 0,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Pune, India",
+    "remote_regions": [],
+    "min_years_quote": "0\u20132 years of experience in security, cloud, DevOps, IT, or software engineering.",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "IN"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6071,
+   "title": "AI GTM Engineer",
+   "company": "Signoz",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "none",
+    "skills": [
+     "sql",
+     "bigquery",
+     "hubspot",
+     "crm",
+     "data pipelines",
+     "llms",
+     "n8n",
+     "api"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "India",
+    "remote_regions": [],
+    "min_years_quote": "You have 3+ yrs of experience either on engineering or GTM side or mix of two",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "IN"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 2470,
+   "title": "Translator/Linguist (Freelance)",
+   "company": "Elevenlabs",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "can_apply",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "translation",
+     "localization",
+     "linguistics"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "part_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "GB",
+     "ES",
+     "DE",
+     "BR",
+     "PT",
+     "MX",
+     "FR",
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "United Kingdom | Spain | Germany | Brazil | Portugal | Mexico | France | India",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "GB",
+     "ES",
+     "DE",
+     "BR",
+     "PT",
+     "MX",
+     "FR",
+     "IN"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 25530,
+   "title": "Software Engineer, Payin",
+   "company": "Stripe",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "none",
+    "skills": [
+     "ruby",
+     "java",
+     "go",
+     "mongo",
+     "mysql",
+     "api",
+     "distributed systems",
+     "microservices"
+    ],
+    "student": "none",
+    "min_years": 8,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bengaluru",
+    "remote_regions": [],
+    "min_years_quote": "8+ years of experience designing, implementing and operating large-scale, high-performance APIs and services",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 21739,
+   "title": "Software Engineer (Backend)",
+   "company": "Scopely",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "python",
+     "django",
+     "restful apis",
+     "data modeling",
+     "automated tests",
+     "version control"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "IN - Bangalore, India",
+    "remote_regions": [],
+    "min_years_quote": "2+ years of professional software development experience, preferably working on backend services or applications.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5756,
+   "title": "Backend Engineer",
+   "company": "Resend",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "distributed systems",
+     "apis",
+     "relational data models",
+     "infrastructure as code",
+     "terraform",
+     "aws cdk"
+    ],
+    "student": "none",
+    "min_years": 8,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "region",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Americas, United States",
+    "remote_regions": [
+     "AMERICAS"
+    ],
+    "min_years_quote": "Have 8+ years of software engineering experience, with substantial experience building and operating backend services in production",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 2082,
+   "title": "Field Engineer, Healthcare",
+   "company": "Cursor",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "field engineering",
+     "solutions architecture",
+     "pre-sales",
+     "consulting",
+     "sdlc"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 2272,
+   "title": "Embedded AI Engineer, On-Device Models",
+   "company": "Deepgram",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "c",
+     "c++",
+     "rust",
+     "assembly",
+     "embedded linux",
+     "rtos"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "USA - Remote, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5011,
+   "title": "AI Provider Operations & Support Engineer",
+   "company": "Openrouter",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "inference apis",
+     "typescript",
+     "javascript",
+     "python"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote (US), United States",
+    "remote_regions": [],
+    "min_years_quote": "Experience: 2-3 years at a startup, software engineering, product ops, or similar.",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 26796,
+   "title": "Software Engineer, Platform Access (L2)",
+   "company": "Twilio",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "junior",
+    "degree": "none",
+    "skills": [
+     "iam",
+     "terraform",
+     "aws",
+     "azure",
+     "gcp",
+     "devops"
+    ],
+    "student": "none",
+    "min_years": 1,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote - US",
+    "remote_regions": [],
+    "min_years_quote": "Experience: 1\u20132+ years of professional software engineering or DevOps/Platform engineering experience, with practical exposure to multi-cloud environments, Identity & Access Management (IAM), or platform automation.",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 13765,
+   "title": "Security Engineer, IAM",
+   "company": "Dropbox",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "bachelors",
+    "skills": [
+     "iam",
+     "okta",
+     "saml",
+     "oauth",
+     "python",
+     "go",
+     "java",
+     "bash"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "CA"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote - Canada: Select locations",
+    "remote_regions": [],
+    "min_years_quote": "5+ years of security engineering experience, including substantial IAM or identity-security experience",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "CA"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 27359,
+   "title": "Security Software Engineering Intern 2027",
+   "company": "Verkada",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [
+     "python",
+     "golang",
+     "distributed systems",
+     "operating systems",
+     "aws",
+     "docker"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "sponsorship_offered",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Actively pursuing a Bachelor's or Master's degree in Computer Science or similar technical field of study and graduating by June 2028",
+    "location_quote": "San Mateo, CA United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "We do sponsor and take over sponsorship of employment visas for this role.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 15539,
+   "title": "Hardware Summer Intern 2027",
+   "company": "Graphcore",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "none",
+    "skills": [],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "must_already_have",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "GB"
+    ],
+    "student_quote": "Currently studying towards a degree in Electronic Engineering, Electrical and Electronic Engineering, Computer Engineering, Physics or a closely related technical discipline",
+    "location_quote": "Location: Bristol, UK",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "Applicants must already have the right to work in the UK for the full duration of the programme, without requiring visa sponsorship.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 24540,
+   "title": "Summer 2027 Graduate Engineer Internship/Co-op",
+   "company": "SpaceX",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "citizens_only",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Enrolled in a graduate program by the start of employment and holds a bachelor\u2019s degree in engineering, physics or math discipline",
+    "location_quote": "Internships are available with a variety of engineering teams across the company including design, manufacturing and operations at Bastrop, TX; Bloomfield, CT, Brownsville, TX; Cape Canaveral, FL; Hawthorne (Los Angeles), CA; Irvine, CA; Long Beach, CA, McGregor (Waco), TX; Palo Alto, CA; Redmond (Seattle), WA; Vandenberg, CA; and Woodinville, WA.",
+    "remote_regions": [],
+    "min_years_quote": "6+ months of applied engineering experience (internship, laboratory, and personal/team project experience is applicable)",
+    "work_auth_quote": "Applicant for this graduate engineer position must be a (i) U.S. citizen or national, (ii) U.S. lawful permanent resident (e.g., green card holder), (iii) Refugee under 8 U.S.C. \u00a7 1157, or (iv) Asylee under 8 U.S.C. \u00a7 1158.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 27170,
+   "title": "Backend Software Engineering Intern 2027",
+   "company": "Verkada",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [
+     "redis",
+     "dynamodb",
+     "postgres",
+     "kafka",
+     "sqs",
+     "terraform",
+     "kubernetes",
+     "python"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "sponsorship_offered",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [
+     2028
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Actively pursuing a Bachelor's or Master's degree in Computer Science or similar technical field of study and graduating by June 2028",
+    "location_quote": "This role requires that you be on-site at our HQ in San Mateo, CA.",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "We do sponsor and take over sponsorship of employment visas for this role.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 27570,
+   "title": "2027 Summer Intern, PhD, Machine Learning, Planning/Prediction",
+   "company": "Waymo",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "phd",
+    "skills": [
+     "transformers",
+     "reinforcement learning",
+     "tensorflow",
+     "jax",
+     "pytorch",
+     "python"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Currently pursuing a PhD degree in Computer Science, Machine Learning, Robotics, or related field",
+    "location_quote": "Mountain View, CA, USA",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5586,
+   "title": "Software Engineering Intern, Backend",
+   "company": "Ramp",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Currently pursuing a B.S. or higher in Computer Science or a related technical field, graduating December 2027 or later",
+    "location_quote": "New York, NY (HQ), USA",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 16770,
+   "title": "Data Engineer",
+   "company": "Jane Street",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "sql",
+     "pandas",
+     "polars",
+     "python"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "HK"
+    ],
+    "student_quote": null,
+    "location_quote": "Hong Kong, Hong Kong",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 24750,
+   "title": "Voice Systems Engineer",
+   "company": "SpaceX",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "rf",
+     "lmr",
+     "ip backhaul",
+     "radio systems"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "citizens_only",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Memphis, TN",
+    "remote_regions": [],
+    "min_years_quote": "Bachelor\u2019s degree in information technology, computer science, electrical engineering, or other STEM discipline and 2+ years professional land mobile radio systems engineering experience OR 5+ years professional land mobile radio systems engineering experience without a degree.",
+    "work_auth_quote": "To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. \u00a7 1157, or (iv) Asylee under 8 U.S.C. \u00a7 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 2815,
+   "title": "Backend Infrastructure Engineer",
+   "company": "Firecrawl",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "none",
+    "skills": [
+     "backend",
+     "networking",
+     "infrastructure"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "must_already_have",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US",
+     "CA"
+    ],
+    "student_quote": null,
+    "location_quote": "San Francisco, CA (SF HQ) or Toronto, ON (Toronto Hub). Hybrid, onsite 3+ days a week.",
+    "remote_regions": [],
+    "min_years_quote": "Experience: 3+ years in backend, networking, or infrastructure engineering",
+    "work_auth_quote": "Open to candidates already authorized to work in the US or Canada.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 8735,
+   "title": "Staff Software Engineer, Search",
+   "company": "Anthropic",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": 5,
+    "work_auth": "sponsorship_offered",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "San Francisco, CA | New York City, NY",
+    "remote_regions": [],
+    "min_years_quote": "5+ years building complex distributed systems in production",
+    "work_auth_quote": "Visa sponsorship: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 19861,
+   "title": "Sr. Manager, Ads Product Marketing- PerformanceAutomation",
+   "company": "Pinterest",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Los Angeles, CA, US; San Francisco, CA, US; Chicago, IL, US; New York, NY, US; Remote, US",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 10231,
+   "title": "Customer Support Engineer - Level 2",
+   "company": "Celonis",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "linux",
+     "unix",
+     "sso",
+     "jks",
+     "docker",
+     "kubernetes",
+     "python",
+     "java"
+    ],
+    "student": "none",
+    "min_years": 6,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Bangalore, India",
+    "remote_regions": [],
+    "min_years_quote": "At least 6 years of commendable Industry experience of working in a global environment and supported Product organisations",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6454,
+   "title": "Forward Deployed Engineer, Frontier Engineering",
+   "company": "Snowflake",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "bachelors",
+    "skills": [
+     "python",
+     "sql",
+     "llm",
+     "rag"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: IN-Bangalore-MSO | IN-Mumbai-MSO, India",
+    "remote_regions": [],
+    "min_years_quote": "- 3+ years of professional software engineering experience.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30313,
+   "title": "Product Management - Risk Product | Experience : 5-8 yrs",
+   "company": "Paytm",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Bangalore, Karnataka | Noida, Uttar Pradesh",
+    "remote_regions": [],
+    "min_years_quote": "* 5+ years of product management experience in the consumer or fintech industry.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30309,
+   "title": "Product Management - Paytm Insurance I Exp - 6 to 8 Years",
+   "company": "Paytm",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [],
+    "student": "none",
+    "min_years": 6,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Noida, Uttar Pradesh",
+    "remote_regions": [],
+    "min_years_quote": "\u25cf 6\u20138 years of experience, ideally in entrepreneurship, building consumer products or top-tier consulting.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 18166,
+   "title": "Contract Technical Recruiter",
+   "company": "MongoDB",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "bachelors",
+    "skills": [],
+    "student": "none",
+    "min_years": 4,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "contract",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Gurugram",
+    "remote_regions": [],
+    "min_years_quote": "- Has 4+ years of in-house technical recruiting experience",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30194,
+   "title": "Backend - TL/STL",
+   "company": "Paytm",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "java",
+     "spring boot",
+     "aws",
+     "microservices",
+     "caching"
+    ],
+    "student": "none",
+    "min_years": 4,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore, Karnataka | Noida, Uttar Pradesh",
+    "remote_regions": [],
+    "min_years_quote": "1) 4 to 6 years of hands-on backend engineering experience \u2014 Java, Spring Boot, AWS.)",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30306,
+   "title": "Product Management - Lending Product | Experience : 5 -12 yrs",
+   "company": "Paytm",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "bachelors",
+    "skills": [
+     "product management",
+     "prds",
+     "agile",
+     "scrum",
+     "lending"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Noida, Uttar Pradesh",
+    "remote_regions": [],
+    "min_years_quote": "5-12 years of total experience, with a minimum of 5 years in product management",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5489,
+   "title": "Software Engineer, Security, Privacy",
+   "company": "Ramp",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "none",
+    "skills": [
+     "software engineering",
+     "privacy",
+     "security",
+     "platform"
+    ],
+    "student": "none",
+    "min_years": 4,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "New York, NY (HQ) | San Francisco, CA | Remote (US), USA",
+    "remote_regions": [],
+    "min_years_quote": "Minimum of 4 years of experience building software",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6759,
+   "title": "Software Engineer II, Cloud Applications",
+   "company": "Temporal",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "none",
+    "skills": [
+     "go",
+     "postgresql",
+     "kubernetes"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "United States (Remote)",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 1709,
+   "title": "Technical Support Engineer",
+   "company": "Composio",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "typescript",
+     "python",
+     "technical support",
+     "llms"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote (US: PST or EST)",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 18007,
+   "title": "Software Engineer - AI Experiences",
+   "company": "Mercury",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "mid",
+    "degree": "none",
+    "skills": [
+     "backend",
+     "full-stack",
+     "haskell",
+     "react",
+     "typescript",
+     "redux",
+     "llm"
+    ],
+    "student": "none",
+    "min_years": 1,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "CA",
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "remote_regions": [],
+    "min_years_quote": "Has 1-4 years of backend or full-stack development experience, with knowledge of or excitement to learn Haskell, React, TypeScript, and Redux",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "CA",
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 1431,
+   "title": "Technical Curriculum Developer, Platform - EMEA",
+   "company": "Clickhouse",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "none",
+    "skills": [
+     "technical curriculum development",
+     "databases",
+     "distributed systems",
+     "devops",
+     "machine learning",
+     "genai",
+     "scripting",
+     "github"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "region",
+    "job_countries": [
+     "FR",
+     "GB",
+     "ES",
+     "DE",
+     "NL"
+    ],
+    "student_quote": null,
+    "location_quote": "Europe | France | United Kingdom | Spain | Germany | The Netherlands, European Union",
+    "remote_regions": [
+     "EUROPE"
+    ],
+    "min_years_quote": "5+ years of experience with technical curriculum development on databases and/or distributed systems",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6833,
+   "title": "Software Engineer, Integrations Platform, Vanta For Government (V4G)",
+   "company": "Vanta",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "typescript",
+     "react",
+     "node.js",
+     "restful apis",
+     "oauth",
+     "api keys",
+     "jwt"
+    ],
+    "student": "none",
+    "min_years": 6,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote U.S., USA",
+    "remote_regions": [],
+    "min_years_quote": "6+ years of full-stack development building reliable, scalable, fault-tolerant systems.",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 16430,
+   "title": "Software Engineer Intern",
+   "company": "IMC",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "none",
+    "skills": [
+     "java",
+     "c++"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "must_already_have",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [
+     2028
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "NL"
+    ],
+    "student_quote": "In your penultimate year of study in computer science, software engineering, or a related field graduating in 2028",
+    "location_quote": "Amsterdam, Netherlands",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "To be able to take part in IMC\u2019s internship programme, you will need to obtain the required visa and/or permit to enter, stay and work in the Netherlands.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 25169,
+   "title": "Financial Data Analyst Intern, Technical Operations",
+   "company": "Stripe",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [
+     "sql",
+     "python",
+     "ruby"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "SG"
+    ],
+    "student_quote": "A strong fundamental understanding of quantitative analysis through pursuit of a Bachelor's, Master's, or PhD degree in computer science, data science, finance, economics, information systems, or a related discipline",
+    "location_quote": "Singapore",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 29629,
+   "title": "Product Internship",
+   "company": "Matchgroup",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "intern",
+    "degree": "none",
+    "skills": [
+     "product management",
+     "user research",
+     "usability testing"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "BE"
+    ],
+    "student_quote": null,
+    "location_quote": "Ghent, Belgium",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5116,
+   "title": "Internship - Search Machine Learning Engineer",
+   "company": "Perplexity",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "intern",
+    "degree": "none",
+    "skills": [
+     "machine learning",
+     "statistics",
+     "python",
+     "pytorch",
+     "tensorflow",
+     "jax"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "GB"
+    ],
+    "student_quote": null,
+    "location_quote": "London, United Kingdom",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 21491,
+   "title": "Machine Learning Research Intern (Summer 2027)",
+   "company": "Scale AI",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [
+     "machine learning",
+     "deep learning",
+     "natural language processing",
+     "python",
+     "javascript"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [
+     2027,
+     2028
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Currently enrolled in a BS, MS or PhD program with a focus on Machine Learning, Deep Learning, or Natural Language Processing, with a graduation date in Fall 2027 or Spring 2028",
+    "location_quote": "New York, NY; San Francisco, CA",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 7887,
+   "title": "[Summer Internship 2027] Supply Analytics Intern",
+   "company": "Agoda",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "none",
+    "skills": [
+     "microsoft 365",
+     "database management",
+     "sql",
+     "nosql",
+     "oracle",
+     "tableau",
+     "data visualization",
+     "power bi"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "TH"
+    ],
+    "student_quote": "Currently enrolled as a 3rd-year student or below and will maintain student status throughout the internship period.",
+    "location_quote": "Bangkok, Thailand",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 16761,
+   "title": "Data Center Operations Engineer",
+   "company": "Jane Street",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "mep systems",
+     "bms",
+     "epms",
+     "cdu",
+     "rdhx",
+     "chillers",
+     "crah"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Austin, Texas, United States",
+    "remote_regions": [],
+    "min_years_quote": "Have 5+ years of hands-on experience operating, maintaining, commissioning, or constructing mission-critical data centers, trading floors, or similar 24/7 facilities",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 4562,
+   "title": "Backend Software Engineer - Codex for Finance",
+   "company": "Openai",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "python",
+     "go",
+     "rust",
+     "typescript",
+     "apis",
+     "distributed systems"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "San Francisco, United States",
+    "remote_regions": [],
+    "min_years_quote": "5+ years of professional software engineering experience, with a strong track record of building and operating production backend systems.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 16797,
+   "title": "Hardware Engineer (FPGA/ASIC)",
+   "company": "Jane Street",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "new_grad",
+    "degree": "unknown",
+    "skills": [
+     "vhdl",
+     "verilog",
+     "chisel",
+     "pymtl",
+     "vivado",
+     "quartus",
+     "genus",
+     "innovus"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "New York, New York, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30162,
+   "title": "Technical Program Manager (TPM) - Defense",
+   "company": "Palantir",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": 2,
+    "work_auth": "citizens_only",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Washington, D.C.",
+    "remote_regions": [],
+    "min_years_quote": "2+ years of project/program management experience, preferably in a fast-paced or dynamic environment.",
+    "work_auth_quote": "Ability and willingness to obtain a US security clearance at the Secret designation or above.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 24251,
+   "title": "Sr. Responsible Engineer - Turbomachinery (Starship)",
+   "company": "SpaceX",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": 5,
+    "work_auth": "citizens_only",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "McGregor, TX",
+    "remote_regions": [],
+    "min_years_quote": "5+ years of professional experience in turbomachinery design and analysis role (Structural and/or fluid)",
+    "work_auth_quote": "ITAR REQUIREMENTS:",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 15318,
+   "title": "Release Engineer, Salesforce",
+   "company": "GitLab",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "bachelors",
+    "skills": [
+     "python",
+     "git",
+     "ci/cd",
+     "salesforce",
+     "zuora"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore, India",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5800,
+   "title": "Software Engineer - Backend",
+   "company": "Sardine",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "golang",
+     "backend development",
+     "apis"
+    ],
+    "student": "none",
+    "min_years": 7,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Remote - India",
+    "remote_regions": [],
+    "min_years_quote": "7+ years of proven experience as a Software Engineer specializing in web backend development.",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "IN"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 11235,
+   "title": "Specialist, CSIRT",
+   "company": "Coinbase",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "incident response",
+     "alert triage",
+     "network/host forensics",
+     "python",
+     "bash"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote - India",
+    "remote_regions": [],
+    "min_years_quote": "3+ years of hands-on security operations experience including incident response, alert triage, and network/host forensics across cloud, SaaS, and container environments",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "IN"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5812,
+   "title": "Embedded Infrastructure Engineer, Chanakya",
+   "company": "Sarvam",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "postgresql",
+     "mongodb",
+     "elasticsearch",
+     "clickhouse",
+     "apache kafka",
+     "apache spark",
+     "airflow",
+     "python"
+    ],
+    "student": "none",
+    "min_years": 4,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Delhi, India",
+    "remote_regions": [],
+    "min_years_quote": "\u2022   4\u20138 years in data infrastructure, data engineering, platform engineering, or site reliability engineering, ideally at organisations operating at significant data scale",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 16496,
+   "title": "SDE II - AI",
+   "company": "InMobi ",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "can_apply",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 28407,
+   "title": "Escalation Engineer - ZIA/ZPA",
+   "company": "Zscaler",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "bachelors",
+    "skills": [
+     "networking",
+     "web security",
+     "troubleshooting",
+     "ping",
+     "traceroute",
+     "mtr"
+    ],
+    "student": "none",
+    "min_years": 8,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore, IND; Mohali, IND",
+    "remote_regions": [],
+    "min_years_quote": "Bachelors with 8 plus years of experience as a Support Engineer or Senior Support Engineer supporting networking or web security products",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 31424,
+   "title": "Product Security Engineer II",
+   "company": "Zeta",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "bachelors",
+    "skills": [
+     "java",
+     "springboot",
+     "jenkins",
+     "aws",
+     "azure",
+     "kubernetes",
+     "postgresql",
+     "docker"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Hyderabad",
+    "remote_regions": [],
+    "min_years_quote": "2 to 3 years of overall experience as Web/Mobile Application Security engineer or Developer in medium to large-sized product companies.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 20076,
+   "title": "Software Engineer, Ad Signals",
+   "company": "Reddit",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "none",
+    "skills": [
+     "backend",
+     "mmp",
+     "skan",
+     "app capi",
+     "api design",
+     "distributed systems",
+     "sql"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote - United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 25654,
+   "title": "Technical Curriculum Developer, Technical Enablement",
+   "company": "Stripe",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "curriculum development",
+     "instructional design",
+     "technical training",
+     "e-learning",
+     "multimedia tools"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "San Francisco; Seattle; Remote",
+    "remote_regions": [],
+    "min_years_quote": "3+ years of experience in curriculum development, instructional design, or technical training",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 25827,
+   "title": "Solutions Engineer - Commercial (Expansion Sales)",
+   "company": "Tailscale",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "networking",
+     "security",
+     "tcp/ip",
+     "dns",
+     "routing",
+     "firewalls",
+     "zero-trust",
+     "iam"
+    ],
+    "student": "none",
+    "min_years": 4,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote (United States)",
+    "remote_regions": [],
+    "min_years_quote": "4/5+ years in a customer-facing SE/SA role within networking or security software",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 20643,
+   "title": "Global Developer Engagement Representative, Part-Time, Contractor",
+   "company": "Roblox",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "roblox",
+     "community engagement",
+     "project management",
+     "logistics"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "must_already_have",
+    "work_mode": "remote",
+    "employment": "contract",
+    "grad_years": [],
+    "remote_scope": "region",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote",
+    "remote_regions": [
+     "NA"
+    ],
+    "min_years_quote": null,
+    "work_auth_quote": "For US based roles only, please note the Company may not be able to employ candidates for this role who have United States work authorization related to certain U.S. visa categories, or support future H-1B sponsorship at this time.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6586,
+   "title": "Developer Relations Engineer",
+   "company": "Supabase",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "javascript",
+     "typescript",
+     "postgres",
+     "react",
+     "svelte",
+     "vue"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "This role is based in San Francisco to support regular in-person devrel video shoots, attend local events, and be an active presence in the SF tech ecosystem.",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 13742,
+   "title": "Application Security Engineer",
+   "company": "Dropbox",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "application security",
+     "security engineering",
+     "automation",
+     "sdlc",
+     "microservices",
+     "ci/cd",
+     "cloud-native",
+     "vulnerability management"
+    ],
+    "student": "none",
+    "min_years": 4,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote - US: Select locations",
+    "remote_regions": [],
+    "min_years_quote": "- 4+ years of experience in application security or security engineering roles.",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 1128,
+   "title": "Software Engineer - New Grad 2026",
+   "company": "Cerebras",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "new_grad",
+    "degree": "none",
+    "skills": [
+     "c",
+     "c++"
+    ],
+    "student": "recent_grad",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [
+     2026
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "CA",
+     "US"
+    ],
+    "student_quote": "Recently graduated or currently enrolled in a university program in Computer Science, Computer Engineering, Electrical Engineering, or a related discipline (graduating in 2026).",
+    "location_quote": "Toronto, ON, or Sunnyvale CA",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 8896,
+   "title": "Product Management Intern (2027 Summer Internship)",
+   "company": "AppLovin",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [
+     "user research",
+     "data analysis",
+     "product metrics",
+     "experimentation"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "SG"
+    ],
+    "student_quote": "Currently pursuing a Bachelor's degree or above in any field \u2014 Computer Science, Business, Cognitive Science, Economics, and related disciplines are all welcome.",
+    "location_quote": "Location: Singapore",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 11113,
+   "title": "Payment Risk Intern",
+   "company": "Coinbase",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "none",
+    "skills": [
+     "sql",
+     "tableau",
+     "looker",
+     "generative ai"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": 1,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Currently pursuing a degree or certificate in a technology, finance, or analytics-related discipline, or equivalent experience",
+    "location_quote": "Hybrid - New York, NY",
+    "remote_regions": [],
+    "min_years_quote": "1+ years of hands-on SQL experience through coursework, projects, or prior internships",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 27495,
+   "title": "2027 Internship - Quantitative Trading",
+   "company": "Virtu Financial",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "unknown",
+    "skills": [
+     "python",
+     "sql",
+     "java",
+     "c++"
+    ],
+    "student": "recent_grad",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [
+     2028
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IE"
+    ],
+    "student_quote": "- Graduating year of 2028",
+    "location_quote": "- Location: Dublin, Ireland (onsite)",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30174,
+   "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
+   "company": "Palantir",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [
+     "python",
+     "java",
+     "c++",
+     "typescript",
+     "javascript"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Note this opportunity is open to freshmen and sophomores, as well as juniors and seniors in college.",
+    "location_quote": "New York, NY",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 13006,
+   "title": "Software Engineering Intern",
+   "company": "Datadog",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "intern",
+    "degree": "none",
+    "skills": [
+     "computer science",
+     "data structures",
+     "algorithms",
+     "software design",
+     "kubernetes"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "FR"
+    ],
+    "student_quote": "Pursuing a degree in Computer Science, Software Engineering, or a related technical field, or have equivalent practical experience",
+    "location_quote": "Paris, France",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 23355,
+   "title": "Process Safety Engineer (Power Plant)",
+   "company": "SpaceX",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "bachelors",
+    "skills": [
+     "process safety",
+     "chemical engineering",
+     "mechanical engineering",
+     "aspen plus",
+     "aspen hysys",
+     "aspen dynamics"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "must_already_have",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Memphis, TN",
+    "remote_regions": [],
+    "min_years_quote": "3+ years of experience with design, commissioning, or process safety of power generation, utilities, or high-hazard process systems",
+    "work_auth_quote": "To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. \u00a7 1157, or (iv) Asylee under 8 U.S.C. \u00a7 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 3962,
+   "title": "Detection and Response Engineer",
+   "company": "Modal",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "kubernetes",
+     "linux",
+     "networking",
+     "sql"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "New York | Stockholm | San Francisco, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 3830,
+   "title": "Research Operations, Code",
+   "company": "Mercor",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "bachelors",
+    "skills": [
+     "software development",
+     "data pipelines",
+     "automation"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "San Francisco, United States",
+    "remote_regions": [],
+    "min_years_quote": "At least two years of experience in software development or a forward deployed engineering role.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6133,
+   "title": "Senior Product Manager - Data Observability",
+   "company": "Snowflake",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "US-WA-Bellevue, United States",
+    "remote_regions": [],
+    "min_years_quote": "5+ years of product management experience, with a proven track record of shipping successful enterprise data infrastructure, data quality, pipeline monitoring, or observability products.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 12602,
+   "title": "Staff Software Engineer - IAM",
+   "company": "Databricks",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": 7,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Mountain View, California",
+    "remote_regions": [],
+    "min_years_quote": "7+ years of experience in Data Security or related areas and expertise in two or more of the following--Cryptography, Kubernetes Security, Web Security, Governance, Privacy, Trust, Safety, Authentication, Identity Management, Access Control, Key Management, Inter-Service Authentication, Secure Appli",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5832,
+   "title": "Performance Engineer, Kernels",
+   "company": "Sarvam",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "none",
+    "skills": [
+     "cuda",
+     "cutlass",
+     "cute",
+     "ptx",
+     "nsight compute",
+     "nsight systems"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bengaluru | Chennai, India",
+    "remote_regions": [],
+    "min_years_quote": "5+ years in ML systems, with 2+ years authoring production CUDA kernels.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5827,
+   "title": "Infrastructure SRE - HPC",
+   "company": "Sarvam",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "python",
+     "go",
+     "site reliability engineering",
+     "infrastructure engineering"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bengaluru | Chennai, India",
+    "remote_regions": [],
+    "min_years_quote": " - 5+ years in infrastructure or site reliability engineering, including 2+ years operating GPU clusters at scale.*",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 13792,
+   "title": "Sales Engineer",
+   "company": "Druva",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "python",
+     "linux",
+     "sql",
+     "active directory",
+     "aws",
+     "azure"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Pune, Maharashtra, India",
+    "remote_regions": [],
+    "min_years_quote": "\u2022 5 to 8 years in technical customer-facing roles with at least 2+ years as a sales engineer working with enterprise software solutions",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 25541,
+   "title": "Software Engineer, Stripe Data Pipeline",
+   "company": "Stripe",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "apis",
+     "distributed systems"
+    ],
+    "student": "none",
+    "min_years": 7,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore",
+    "remote_regions": [],
+    "min_years_quote": "\u2022 7+ years of experience in delivering, extending, and maintaining large-scale distributed systems",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 15557,
+   "title": "Power & Performance Validation Engineer",
+   "company": "Graphcore",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "unknown",
+    "skills": [
+     "linux",
+     "python",
+     "c++",
+     "perf",
+     "fio",
+     "stress-ng"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bengaluru, India",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 15286,
+   "title": "People Systems Engineer",
+   "company": "GitLab",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "can_apply",
+   "requirements": {
+    "level": "unknown",
+    "degree": "unknown",
+    "skills": [
+     "ruby",
+     "python",
+     "javascript",
+     "workato",
+     "apis"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "IN",
+     "PL"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore, India; Remote, Poland",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "IN",
+     "PL"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 28799,
+   "title": "fraud analyst",
+   "company": "Cred",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "can_apply",
+   "requirements": {
+    "level": "junior",
+    "degree": "unknown",
+    "skills": [
+     "sql",
+     "python"
+    ],
+    "student": "none",
+    "min_years": 1,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "bengaluru",
+    "remote_regions": [],
+    "min_years_quote": "have 1\u20132 years of experience in data science, analytics, engineering or a related technical role.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6941,
+   "title": "Software Engineer - Platform & Productivity",
+   "company": "Workos",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "none",
+    "min_years": 8,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US",
+     "CA"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: United States & Canada",
+    "remote_regions": [],
+    "min_years_quote": " - 8+ years of software development experience, with a track record of owning high-impact technical projects",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US",
+     "CA"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30694,
+   "title": "Business Consultant - Global Analytics",
+   "company": "Veeva",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "bachelors",
+    "skills": [
+     "sql"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Massachusetts - Boston",
+    "remote_regions": [],
+    "min_years_quote": "- Experience: 3+ years in Life Sciences Consulting (Business or Management Consulting preferred)",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 15439,
+   "title": "Threat Research Engineer, Security Factory: Threat Research",
+   "company": "GitLab",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "unknown",
+    "skills": [
+     "go",
+     "python"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "IL",
+     "PL",
+     "GB"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote, Israel; Remote, Poland; Remote, United Kingdom",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "IL",
+     "PL",
+     "GB"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30791,
+   "title": "Data Scientist - Analytics Business Consulting",
+   "company": "Veeva",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "none",
+    "skills": [
+     "python",
+     "sql"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "ES"
+    ],
+    "student_quote": null,
+    "location_quote": "Spain - Barcelona",
+    "remote_regions": [],
+    "min_years_quote": "- 2+ years of proven experience in data science, advanced analytics, or machine learning roles, preferably within Life Sciences, pharmaceuticals, or healthcare analytics",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "ES"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 15262,
+   "title": "Intermediate Fullstack Engineer, Subscription Lifecycle",
+   "company": "GitLab",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "none",
+    "skills": [
+     "ruby on rails",
+     "fullstack"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "CA",
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote, Canada; Remote, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "CA",
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 21201,
+   "title": "Enterprise Core Sales Engineer - West",
+   "company": "Samsara",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "none",
+    "skills": [
+     "storytelling",
+     "objection handling",
+     "integrations"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "must_already_have",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Remote - AZ; Remote - CA; Remote - CO; Remote - NV; Remote - OR; Remote - Seattle",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "All offers of employment are contingent upon an individual\u2019s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable.",
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 7649,
+   "title": "[Cooperative Internship 2027] Data Platform Intern, Devops",
+   "company": "Agoda",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [
+     "go",
+     "python"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "TH"
+    ],
+    "student_quote": "Be an Undergraduate / Graduate in an IT related / Computer Science or equivalent degree",
+    "location_quote": "Bangkok based",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 10209,
+   "title": "Associate Deployment Engineer - Galaxy Graduate Program (German/French/Italian/Portuguese Speaking)",
+   "company": "Celonis",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "junior",
+    "degree": "unknown",
+    "skills": [
+     "sql",
+     "python",
+     "german",
+     "french",
+     "italian",
+     "portuguese"
+    ],
+    "student": "recent_grad",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "ES"
+    ],
+    "student_quote": "This role is designed for high-potential university graduates",
+    "location_quote": "Madrid, Spain",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30139,
+   "title": "Software Engineer, New Grad - Defense",
+   "company": "Palantir",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "new_grad",
+    "degree": "none",
+    "skills": [
+     "java",
+     "go",
+     "typescript",
+     "cassandra",
+     "spark",
+     "elasticsearch",
+     "react",
+     "redux"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "citizens_only",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "New York, NY",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "Active US Security clearance or eligibility and willingness to obtain a US Security clearance.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 23182,
+   "title": "New Graduate Engineer, Software - '26/'27 (Starlink)",
+   "company": "SpaceX",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "new_grad",
+    "degree": "bachelors",
+    "skills": [
+     "c",
+     "c++",
+     "python",
+     "c#"
+    ],
+    "student": "recent_grad",
+    "min_years": null,
+    "work_auth": "citizens_only",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [
+     2026,
+     2027
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Graduating in the class of 2026 or 2027.",
+    "location_quote": "Palo Alto, CA",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. \u00a7 1157, or (iv) Asylee under 8 U.S.C. \u00a7 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 29941,
+   "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+   "company": "Palantir",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "new_grad",
+    "degree": "none",
+    "skills": [
+     "java",
+     "go",
+     "python",
+     "javascript"
+    ],
+    "student": "recent_grad",
+    "min_years": null,
+    "work_auth": "citizens_only",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+    "location_quote": "Washington, D.C.",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "Active US Security clearance, or eligibility and willingness to obtain a US Security clearance",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 21186,
+   "title": "Electrical Engineering Co-Op",
+   "company": "Samsara",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "must_already_have",
+    "work_mode": "hybrid",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "To be eligible for this role, you must be attending a university that supports full-time work as part of a 6-month co-op OR attend a university that will allow you to take 2 quarters or one semester off to work a co-op.",
+    "location_quote": "This role will be held at our San Francisco office. Co-ops are required to be in the office Tuesdays to Thursdays and remote work days on Mondays and Fridays.",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "All offers of employment are contingent upon an individual\u2019s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 22598,
+   "title": "Global Operations Engineer (Starlink)",
+   "company": "SpaceX",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "bachelors",
+    "skills": [
+     "excel",
+     "sql",
+     "python"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "citizens_only",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Bastrop, TX",
+    "remote_regions": [],
+    "min_years_quote": "2+ years of experience in an operations, process improvement, manufacturing, and/or consulting environment",
+    "work_auth_quote": "To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. \u00a7 1157, or (iv) Asylee under 8 U.S.C. \u00a7 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 23457,
+   "title": "Propulsion Technician (Raptor Manufacturing Systems)",
+   "company": "SpaceX",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "manufacturing",
+     "production"
+    ],
+    "student": "none",
+    "min_years": 1,
+    "work_auth": "citizens_only",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Hawthorne, CA",
+    "remote_regions": [],
+    "min_years_quote": "1+ years of experience in manufacturing or production environments",
+    "work_auth_quote": "To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. \u00a7 1157, or (iv) Asylee under 8 U.S.C. \u00a7 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 15142,
+   "title": "Software Engineer II",
+   "company": "Flexport",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "distributed systems",
+     "aws",
+     "ci/cd",
+     "infrastructure as code",
+     "terraform",
+     "monitoring",
+     "observability",
+     "software development life cycle"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "CN"
+    ],
+    "student_quote": null,
+    "location_quote": "Shenzhen, China",
+    "remote_regions": [],
+    "min_years_quote": "- 3+ years of experience w",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 14409,
+   "title": "Senior Applied ML/AI Scientist - Search",
+   "company": "Faire",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "New York City, NY; San Francisco, CA",
+    "remote_regions": [],
+    "min_years_quote": "3+ years building production ML systems, with meaningful time in search, recommendations, or another retrieval-and-relevance domain.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6186,
+   "title": "Senior Solution Engineer - Acquisition",
+   "company": "Snowflake",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "NL"
+    ],
+    "student_quote": null,
+    "location_quote": "NL-Amsterdam, Netherlands",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 24886,
+   "title": "Software Development Engineer in Test - Buyer Experience",
+   "company": "StockX",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "webdriverio",
+     "selenium",
+     "appium",
+     "javascript",
+     "typescript"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore, India",
+    "remote_regions": [],
+    "min_years_quote": "3-5 years of experience in Web and Mobile Automation Testing.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 28617,
+   "title": "Software Development Engineer - Java + Distributed Systems",
+   "company": "Zscaler",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "java",
+     "sql"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Hyderabad, IND",
+    "remote_regions": [],
+    "min_years_quote": "- 2+ years of experience in Java coding in a highly distributed and enterprise-scale environment",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 1496,
+   "title": "QA Engineer - APAC",
+   "company": "Cognition",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "python",
+     "typescript",
+     "ci/cd",
+     "test automation"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "India",
+    "remote_regions": [],
+    "min_years_quote": "5+ years of QA/Test Engineering experience testing complex product workflows (multi-step user journeys, cross-surface interactions, and E2E behavior).",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 16433,
+   "title": "Software Engineer (Java) - Global Research Platform",
+   "company": "IMC",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "java",
+     "kubernetes",
+     "docker",
+     "python",
+     "kafka",
+     "linux"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Mumbai, India",
+    "remote_regions": [],
+    "min_years_quote": "3+ years of professional Java development experience (Java 17+, Maven/Gradle, strong grasp of concurrency and JVM performance)",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5269,
+   "title": "Software Engineer, Frontend (React)",
+   "company": "Plane",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "can_apply",
+   "requirements": {
+    "level": "unknown",
+    "degree": "unknown",
+    "skills": [
+     "react",
+     "typescript",
+     "tailwind css",
+     "mobx",
+     "react router"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "India",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 29665,
+   "title": "AM/M - Risk Analytics - User Lending",
+   "company": "Meesho",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "sql",
+     "hive",
+     "metabase",
+     "python"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore, Karnataka",
+    "remote_regions": [],
+    "min_years_quote": "3.5 years to 8 years of relevant experience is required.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 21824,
+   "title": "AI ML Ops Software Engineer (Bangalore Hybrid)",
+   "company": "Smartsheet",
+   "stratum": "India, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "databricks",
+     "mlflow",
+     "python",
+     "sql",
+     "kubernetes",
+     "terraform"
+    ],
+    "student": "none",
+    "min_years": 4,
+    "work_auth": "must_already_have",
+    "work_mode": "hybrid",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "IN"
+    ],
+    "student_quote": null,
+    "location_quote": "Bangalore, INDIA",
+    "remote_regions": [],
+    "min_years_quote": "Minimum experience of 4-6 Years required in AI ML Ops",
+    "work_auth_quote": "Legally eligible to work in India on an ongoing basis",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 26045,
+   "title": "Data Engineer",
+   "company": "Toast",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "sql",
+     "python",
+     "scala",
+     "java",
+     "snowflake",
+     "bigquery",
+     "redshift",
+     "airflow"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Remote, US",
+    "remote_regions": [],
+    "min_years_quote": "- 2+ years of experience in data engineering, software engineering, or a related role building and maintaining data systems in production.",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 21914,
+   "title": "Research Scientist - Human-AI Systems",
+   "company": "Snorkel AI",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "machine learning",
+     "nlp",
+     "llms",
+     "python"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: San Francisco, New York City, OR REMOTE",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30617,
+   "title": "Analytics Engineer - OpenData EMEA (Remote)",
+   "company": "Veeva",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "sql",
+     "python"
+    ],
+    "student": "none",
+    "min_years": 4,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "DE"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Germany - Berlin",
+    "remote_regions": [],
+    "min_years_quote": "- 4+ years of experience as a data analyst using SQL",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "DE"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 4930,
+   "title": "Applied AI Engineer, Enterprise - EDU",
+   "company": "Openai",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "unknown",
+    "skills": [
+     "python",
+     "javascript",
+     "typescript"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: San Francisco | New York City | US - Remote, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 11130,
+   "title": "Product Security Engineer, Offensive Security",
+   "company": "Coinbase",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "unknown",
+    "skills": [
+     "python",
+     "go"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "countries",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Location: Remote - USA",
+    "remote_regions": [],
+    "min_years_quote": "- 3+ years of experience in application security, penetration testing, or offensive security with demonstrated ability to build custom security tooling.",
+    "work_auth_quote": null,
+    "remote_countries": [
+     "US"
+    ],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 6581,
+   "title": "Support Engineer (EMEA)",
+   "company": "Supabase",
+   "stratum": "Remote, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "unknown",
+    "degree": "none",
+    "skills": [
+     "sql",
+     "linux",
+     "unix",
+     "command line",
+     "github"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "not_mentioned",
+    "work_mode": "remote",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "region",
+    "job_countries": [],
+    "student_quote": null,
+    "location_quote": "Remote, EMEA",
+    "remote_regions": [
+     "EMEA"
+    ],
+    "min_years_quote": "Experienced in customer support, with 3+ years of experience providing developer support to technical customers.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 30047,
+   "title": "Product Designer, New Grad - US Government",
+   "company": "Palantir",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "new_grad",
+    "degree": "none",
+    "skills": [
+     "figma"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "citizens_only",
+    "work_mode": "hybrid",
+    "employment": "full_time",
+    "grad_years": [
+     2027
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Must be planning on graduating in 2027.",
+    "location_quote": "New York, NY",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "Active US Security clearance or eligibility and willingness to obtain a US Security clearance.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 9546,
+   "title": "Senior Software Engineer I, Core Objects",
+   "company": "Braze",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [
+     "full-stack development",
+     "design",
+     "data structures",
+     "algorithms"
+    ],
+    "student": "none",
+    "min_years": 5,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Chicago",
+    "remote_regions": [],
+    "min_years_quote": "- 5+ years of full-stack development experience",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 12917,
+   "title": "Research Science Intern (PhD)",
+   "company": "Datadog",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "phd",
+    "skills": [
+     "machine learning",
+     "computer science",
+     "statistics",
+     "gpu"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Currently enrolled in a PhD program at Carnegie Mellon in machine learning, computer science, statistics, or a related field",
+    "location_quote": "Location: New York, New York, USA; Pittsburgh, Pennsylvania, USA",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": "US"
+   }
+  },
+  {
+   "id": 4147,
+   "title": "Software Engineering Intern, iOS (Summer 2027)",
+   "company": "Notion",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "intern",
+    "degree": "bachelors",
+    "skills": [
+     "swift",
+     "typescript",
+     "react"
+    ],
+    "student": "must_be_enrolled",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "internship",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Pursuing a bachelor's or master\u2019s degree in computer science, engineering, or another related field. Must graduate before Summer 2028.",
+    "location_quote": "New York, New York, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 5987,
+   "title": "Software Engineer, Agent (New Grad 2027)",
+   "company": "Sierra",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "new_grad",
+    "degree": "unknown",
+    "skills": [],
+    "student": "recent_grad",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [
+     2027
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": "Software Engineer, Agent (New Grad 2027)",
+    "location_quote": "San Francisco, CA | New York, NY, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 25524,
+   "title": "Software Engineer, New Grad",
+   "company": "Stripe",
+   "stratum": "Intern or new grad",
+   "reading": "llm",
+   "gold": "stretch",
+   "requirements": {
+    "level": "new_grad",
+    "degree": "bachelors",
+    "skills": [
+     "java",
+     "ruby",
+     "javascript",
+     "scala",
+     "go"
+    ],
+    "student": "none",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [
+     2027
+    ],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "RO"
+    ],
+    "student_quote": "A Bachelor\u2019s or Master\u2019s degree in computer science or a directly related field, obtained by summer 2027, or equivalent work experience",
+    "location_quote": "Bucharest",
+    "remote_regions": [],
+    "min_years_quote": "New grad candidates should have no more than 18 months of professional experience (excluding internship experience).",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 22309,
+   "title": "Design Verification Engineer (Silicon Engineering)",
+   "company": "SpaceX",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "junior",
+    "degree": "bachelors",
+    "skills": [
+     "systemverilog",
+     "uvm",
+     "python",
+     "matlab"
+    ],
+    "student": "none",
+    "min_years": 1,
+    "work_auth": "citizens_only",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Irvine, CA",
+    "remote_regions": [],
+    "min_years_quote": "1+ years of experience with design verification and test bench development",
+    "work_auth_quote": "To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. \u00a7 1157, or (iv) Asylee under 8 U.S.C. \u00a7 1158, or be eligible to obtain the required authorizations from the U.S. Department of State.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 24833,
+   "title": "Security Engineer",
+   "company": "Starburst",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "bachelors",
+    "skills": [
+     "owasp top 10",
+     "ci/cd",
+     "git",
+     "python",
+     "go",
+     "java",
+     "typescript",
+     "ruby"
+    ],
+    "student": "none",
+    "min_years": 2,
+    "work_auth": "not_mentioned",
+    "work_mode": "hybrid",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "PL"
+    ],
+    "student_quote": null,
+    "location_quote": "Warsaw, Poland",
+    "remote_regions": [],
+    "min_years_quote": "2\u20135 years of experience in application security, product security, software engineering with a security focus, or a related technical role.",
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 10618,
+   "title": "Logistics Operations Specialist",
+   "company": "Cloudflare",
+   "stratum": "Other, not senior",
+   "reading": "llm",
+   "gold": "cannot",
+   "requirements": {
+    "level": "mid",
+    "degree": "bachelors",
+    "skills": [
+     "supply chain",
+     "logistics",
+     "data analysis",
+     "python",
+     "llm",
+     "ai tooling"
+    ],
+    "student": "none",
+    "min_years": 3,
+    "work_auth": "must_already_have",
+    "work_mode": "hybrid",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "Hybrid",
+    "remote_regions": [],
+    "min_years_quote": "A minimum of 3 years of experience working with global supply chains and logistics is necessary.",
+    "work_auth_quote": "Please note that any offer of employment may be conditioned on your authorization to receive software or technology controlled under these U.S. export laws without sponsorship for an export license.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 8723,
+   "title": "Staff+ Software Engineer, Platform Intelligence",
+   "company": "Anthropic",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": null,
+    "work_auth": "sponsorship_offered",
+    "work_mode": "onsite",
+    "employment": "unknown",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "San Francisco, CA | New York City, NY",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": "Visa sponsorship: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.",
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  },
+  {
+   "id": 96,
+   "title": "Senior Manufacturing Engineer - Actuators",
+   "company": "1X",
+   "stratum": "Senior title",
+   "reading": "rules",
+   "gold": "cannot",
+   "requirements": {
+    "level": "senior",
+    "degree": "unknown",
+    "skills": [],
+    "student": "unknown",
+    "min_years": null,
+    "work_auth": "not_mentioned",
+    "work_mode": "onsite",
+    "employment": "full_time",
+    "grad_years": [],
+    "remote_scope": "unknown",
+    "job_countries": [
+     "US"
+    ],
+    "student_quote": null,
+    "location_quote": "San Carlos, CA, United States",
+    "remote_regions": [],
+    "min_years_quote": null,
+    "work_auth_quote": null,
+    "remote_countries": [],
+    "enrollment_country": null
+   }
+  }
+ ]
+}

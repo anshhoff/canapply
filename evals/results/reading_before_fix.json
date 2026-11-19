@@ -1,0 +1,156 @@
+{
+ "date": "2026-11-18T22:58",
+ "profile": {
+  "country": "IN",
+  "work_auth": [
+   "IN"
+  ],
+  "open_to_relocate": true,
+  "years_experience": 0.8,
+  "is_student": true,
+  "grad_year": 2027,
+  "degree": "bachelors",
+  "wants": [
+   "internship",
+   "full_time"
+  ],
+  "interests": "ai engineer, backend engineer, llm agents, full-stack developer, founding engineer"
+ },
+ "reading": {
+  "pool": 120,
+  "strata": {
+   "India, not senior": 35,
+   "Remote, not senior": 30,
+   "Intern or new grad": 30,
+   "Other, not senior": 15,
+   "Senior title": 10
+  },
+  "llm_readings_in_pool": 110,
+  "quotes": {
+   "checked": 123,
+   "passed": 120
+  },
+  "vs_gold": {
+   "labels": 120,
+   "labelled_by": "120 claude",
+   "gold_mix": {
+    "stretch": 18,
+    "can_apply": 7,
+    "cannot": 95
+   },
+   "rules_only": {
+    "n": 120,
+    "accuracy": 0.833,
+    "can_apply_precision": 0.417,
+    "can_apply_recall": 0.714,
+    "said_can_apply": 12,
+    "really_can_apply": 7,
+    "mistakes (gold -> predicted)": {
+     "stretch -> cannot": 7,
+     "cannot -> can_apply": 7,
+     "cannot -> stretch": 4,
+     "can_apply -> cannot": 1,
+     "can_apply -> stretch": 1
+    }
+   },
+   "cascade": {
+    "n": 120,
+    "accuracy": 0.917,
+    "can_apply_precision": 0.75,
+    "can_apply_recall": 0.857,
+    "said_can_apply": 8,
+    "really_can_apply": 7,
+    "mistakes (gold -> predicted)": {
+     "stretch -> cannot": 5,
+     "cannot -> can_apply": 2,
+     "cannot -> stretch": 2,
+     "can_apply -> stretch": 1
+    }
+   }
+  },
+  "vs_human": {
+   "labels": 0,
+   "rules_only": {
+    "n": 0
+   },
+   "cascade": {
+    "n": 0
+   },
+   "claude_agreement_with_human": {
+    "n": 0
+   }
+  },
+  "disagreements": [
+   {
+    "job_id": 18875,
+    "title": "Business Systems Analyst, ServiceNow",
+    "gold": "stretch",
+    "cascade": "cannot",
+    "rules": "cannot"
+   },
+   {
+    "job_id": 21739,
+    "title": "Software Engineer (Backend)",
+    "gold": "stretch",
+    "cascade": "cannot",
+    "rules": "cannot"
+   },
+   {
+    "job_id": 27359,
+    "title": "Security Software Engineering Intern 2027",
+    "gold": "cannot",
+    "cascade": "can_apply",
+    "rules": "cannot"
+   },
+   {
+    "job_id": 27170,
+    "title": "Backend Software Engineering Intern 2027",
+    "gold": "cannot",
+    "cascade": "stretch",
+    "rules": "cannot"
+   },
+   {
+    "job_id": 18007,
+    "title": "Software Engineer - AI Experiences",
+    "gold": "stretch",
+    "cascade": "cannot",
+    "rules": "cannot"
+   },
+   {
+    "job_id": 7887,
+    "title": "[Summer Internship 2027] Supply Analytics Intern",
+    "gold": "cannot",
+    "cascade": "stretch",
+    "rules": "stretch"
+   },
+   {
+    "job_id": 15557,
+    "title": "Power & Performance Validation Engineer",
+    "gold": "cannot",
+    "cascade": "can_apply",
+    "rules": "can_apply"
+   },
+   {
+    "job_id": 28799,
+    "title": "fraud analyst",
+    "gold": "can_apply",
+    "cascade": "stretch",
+    "rules": "stretch"
+   },
+   {
+    "job_id": 15142,
+    "title": "Software Engineer II",
+    "gold": "stretch",
+    "cascade": "cannot",
+    "rules": "cannot"
+   },
+   {
+    "job_id": 28617,
+    "title": "Software Development Engineer - Java + Distributed Systems",
+    "gold": "stretch",
+    "cascade": "cannot",
+    "rules": "cannot"
+   }
+  ]
+ }
+}

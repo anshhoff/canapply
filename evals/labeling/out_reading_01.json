@@ -1,0 +1,279 @@
+[
+ {
+  "id": 18875,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "requires 2-5 years experience (about 1.2 more)"
+  ],
+  "reason": "India role but needs a 2 year minimum."
+ },
+ {
+  "id": 2136,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India field engineer role with no stated years requirement."
+ },
+ {
+  "id": 28749,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Pune remote associate role asking 0-2 years, internships count."
+ },
+ {
+  "id": 6071,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years, over 2 beyond candidate."
+ },
+ {
+  "id": 2470,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Freelance remote role open globally including India, no years requirement."
+ },
+ {
+  "id": 25530,
+  "bucket": "cannot",
+  "hard_misses": [
+   "8+ years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 8+ years."
+ },
+ {
+  "id": 21739,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "2+ years experience required"
+  ],
+  "reason": "Bangalore hybrid role needing 2+ years, about 1.2 more."
+ },
+ {
+  "id": 5756,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to Americas/US",
+   "8+ years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Americas remote and 8+ years."
+ },
+ {
+  "id": 2082,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to United States"
+  ],
+  "soft_misses": [],
+  "reason": "US-only remote role."
+ },
+ {
+  "id": 2272,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to USA",
+   "senior/staff-level role"
+  ],
+  "soft_misses": [],
+  "reason": "US-only remote and senior."
+ },
+ {
+  "id": 5011,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to US",
+   "2-3 years experience"
+  ],
+  "soft_misses": [],
+  "reason": "US-only remote role."
+ },
+ {
+  "id": 26796,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to US"
+  ],
+  "soft_misses": [],
+  "reason": "Remote - US only."
+ },
+ {
+  "id": 13765,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to Canada",
+   "5+ years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Canada remote and 5+ years."
+ },
+ {
+  "id": 27359,
+  "bucket": "cannot",
+  "hard_misses": [
+   "internship based in US, no US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "On-site US internship."
+ },
+ {
+  "id": 15539,
+  "bucket": "cannot",
+  "hard_misses": [
+   "must already have UK right to work, no sponsorship"
+  ],
+  "soft_misses": [],
+  "reason": "Requires existing UK right to work."
+ },
+ {
+  "id": 24540,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US citizen/permanent resident required (ITAR)",
+   "US-based internship",
+   "graduate enrolment required"
+  ],
+  "soft_misses": [],
+  "reason": "Requires US citizenship or residency."
+ },
+ {
+  "id": 27170,
+  "bucket": "cannot",
+  "hard_misses": [
+   "internship based in US, no US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "On-site US internship."
+ },
+ {
+  "id": 27570,
+  "bucket": "cannot",
+  "hard_misses": [
+   "PhD required",
+   "US-based internship"
+  ],
+  "soft_misses": [],
+  "reason": "PhD student US internship."
+ },
+ {
+  "id": 5586,
+  "bucket": "cannot",
+  "hard_misses": [
+   "internship based in US, no US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "On-site NYC internship."
+ },
+ {
+  "id": 16770,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site in Hong Kong, no work rights, sponsorship not stated"
+  ],
+  "reason": "Hong Kong on-site, no years or visa statement."
+ },
+ {
+  "id": 24750,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US citizen/permanent resident required (ITAR)",
+   "2+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Requires US status."
+ },
+ {
+  "id": 2815,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years experience",
+   "must be authorized to work in US or Canada"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years and US/Canada authorization."
+ },
+ {
+  "id": 8735,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff-level role",
+   "5+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Staff role needing 5+ years."
+ },
+ {
+  "id": 19861,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior manager role",
+   "US based applicants only"
+  ],
+  "soft_misses": [],
+  "reason": "Senior manager, US only."
+ },
+ {
+  "id": 10231,
+  "bucket": "cannot",
+  "hard_misses": [
+   "6+ years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 6+ years."
+ },
+ {
+  "id": 6454,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years."
+ },
+ {
+  "id": 30313,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience",
+   "senior product role"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 5-8 years, senior."
+ },
+ {
+  "id": 30309,
+  "bucket": "cannot",
+  "hard_misses": [
+   "6-8 years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 6-8 years."
+ },
+ {
+  "id": 18166,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4+ years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 4+ years."
+ },
+ {
+  "id": 30194,
+  "bucket": "cannot",
+  "hard_misses": [
+   "technical lead role",
+   "4-6 years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Lead role needing 4-6 years."
+ }
+]

@@ -1,0 +1,29 @@
+name: refresh index
+on:
+  schedule:
+    - cron: "17 */6 * * *"        # every 6 hours
+  workflow_dispatch:
+
+concurrency: refresh
+
+jobs:
+  refresh:
+    # Off until the hosted database exists: set the repository variable REFRESH_ENABLED=true to turn it on.
+    if: vars.REFRESH_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen --no-dev
+      - name: Pull every board, add new postings, close the ones that disappeared
+        run: uv run python -m canapply.ingest
+      - name: Rules reading for anything new
+        run: uv run python -m canapply.extract --rules
+      - name: Embed new or changed postings
+        run: uv run python -m canapply.embed
+      - name: Full reading for the postings that matter most (bounded by the free tier)
+        run: uv run python -m canapply.extract --limit=400

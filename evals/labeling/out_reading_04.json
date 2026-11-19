@@ -1,0 +1,285 @@
+[
+ {
+  "id": 21186,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US-based co-op, no US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "US on-site co-op with no US work rights."
+ },
+ {
+  "id": 22598,
+  "bucket": "cannot",
+  "hard_misses": [
+   "ITAR citizen/PR requirement",
+   "2+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "ITAR restriction and 2+ years."
+ },
+ {
+  "id": 23457,
+  "bucket": "cannot",
+  "hard_misses": [
+   "ITAR citizen/PR requirement"
+  ],
+  "soft_misses": [],
+  "reason": "ITAR restriction applies."
+ },
+ {
+  "id": 15142,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site in China, no work rights, sponsorship not mentioned"
+  ],
+  "reason": "On-site Shenzhen with no stated sponsorship; no years stated."
+ },
+ {
+  "id": 14409,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "3+ years experience",
+   "US-based"
+  ],
+  "soft_misses": [],
+  "reason": "Senior role needing 3+ years in the US."
+ },
+ {
+  "id": 6186,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "Dutch fluency required"
+  ],
+  "soft_misses": [],
+  "reason": "Senior Amsterdam role requiring Dutch."
+ },
+ {
+  "id": 24886,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3-5 years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3-5 years."
+ },
+ {
+  "id": 28617,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "2+ years Java, about 1 year more"
+  ],
+  "reason": "Hybrid Hyderabad; 2+ years Java is one soft miss."
+ },
+ {
+  "id": 1496,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 5+ years QA."
+ },
+ {
+  "id": 16433,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years Java",
+   "2+ years Kubernetes"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years Java."
+ },
+ {
+  "id": 5269,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India-based role with no stated experience requirement."
+ },
+ {
+  "id": 29665,
+  "bucket": "cannot",
+  "hard_misses": [
+   "manager-level (AM/M) role"
+  ],
+  "soft_misses": [],
+  "reason": "Assistant Manager/Manager-grade role."
+ },
+ {
+  "id": 21824,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4-6 years required"
+  ],
+  "soft_misses": [],
+  "reason": "Requires 4-6 years of experience."
+ },
+ {
+  "id": 26045,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote US only",
+   "2+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Remote US only and 2+ years."
+ },
+ {
+  "id": 21914,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote/hybrid US only"
+  ],
+  "soft_misses": [],
+  "reason": "US-only location."
+ },
+ {
+  "id": 30617,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to Germany",
+   "4+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Germany-based and 4+ years."
+ },
+ {
+  "id": 4930,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US remote only"
+  ],
+  "soft_misses": [],
+  "reason": "Remote limited to the US."
+ },
+ {
+  "id": 11130,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote USA only",
+   "3+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Remote USA and 3+ years."
+ },
+ {
+  "id": 6581,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote EMEA only",
+   "3+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "EMEA-only remote and 3+ years."
+ },
+ {
+  "id": 30047,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US security clearance required",
+   "US-based role"
+  ],
+  "soft_misses": [],
+  "reason": "Needs US clearance in NYC."
+ },
+ {
+  "id": 9546,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Senior role requiring 5+ years."
+ },
+ {
+  "id": 12917,
+  "bucket": "cannot",
+  "hard_misses": [
+   "PhD enrolment at CMU required",
+   "US internship"
+  ],
+  "soft_misses": [],
+  "reason": "PhD-only US internship."
+ },
+ {
+  "id": 4147,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US-based internship, no US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "NYC internship with no US work rights."
+ },
+ {
+  "id": 5987,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site in US with no work rights, sponsorship not mentioned"
+  ],
+  "reason": "2027 new grad role, but on-site US with no stated sponsorship."
+ },
+ {
+  "id": 25524,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "in-person role in Romania, no work rights, sponsorship not mentioned"
+  ],
+  "reason": "2027 new grad fits, but Bucharest location with no stated sponsorship."
+ },
+ {
+  "id": 22309,
+  "bucket": "cannot",
+  "hard_misses": [
+   "ITAR citizen/PR requirement"
+  ],
+  "soft_misses": [],
+  "reason": "ITAR restriction applies."
+ },
+ {
+  "id": 24833,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in Poland, no work rights, sponsorship not mentioned",
+   "2-5 years experience, about 1 year more"
+  ],
+  "reason": "Two soft misses: Poland hybrid and 2-5 years."
+ },
+ {
+  "id": 10618,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years experience necessary"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years of experience."
+ },
+ {
+  "id": 8723,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Staff+ level role"
+  ],
+  "soft_misses": [],
+  "reason": "Staff-level role in the US."
+ },
+ {
+  "id": 96,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years experience",
+   "US on-site"
+  ],
+  "soft_misses": [],
+  "reason": "Senior US on-site role."
+ }
+]

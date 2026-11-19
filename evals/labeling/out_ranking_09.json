@@ -1,0 +1,293 @@
+[
+ {
+  "id": 21043,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bengaluru SWE role asking 6 months-1 year experience, fits."
+ },
+ {
+  "id": 21298,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to US/Canada",
+   "senior role, 8-10+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, US/Canada residents only."
+ },
+ {
+  "id": 21469,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4+ years required",
+   "US on-site, no sponsorship stated"
+  ],
+  "soft_misses": [],
+  "reason": "4+ years and San Francisco."
+ },
+ {
+  "id": 21520,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, many years required",
+   "US-based"
+  ],
+  "soft_misses": [],
+  "reason": "Senior FDE role in San Francisco."
+ },
+ {
+  "id": 21554,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff role",
+   "US-based"
+  ],
+  "soft_misses": [],
+  "reason": "Staff role in San Francisco."
+ },
+ {
+  "id": 21593,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "requires 2+ years vs 0.8"
+  ],
+  "reason": "Hybrid Bangalore, needs 2+ years AI art experience (about 1.2 more)."
+ },
+ {
+  "id": 21791,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "US internship but posting says sponsorship available; enrolled B.S. fits."
+ },
+ {
+  "id": 21792,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "US internship but posting says sponsorship available; enrolled B.S. fits."
+ },
+ {
+  "id": 21873,
+  "bucket": "cannot",
+  "hard_misses": [
+   "must be legally eligible to work in US; remote USA"
+  ],
+  "soft_misses": [],
+  "reason": "Remote USA with US work eligibility required."
+ },
+ {
+  "id": 21874,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote only from Bulgaria, must be eligible to work in Bulgaria"
+  ],
+  "soft_misses": [],
+  "reason": "Bulgaria-only remote."
+ },
+ {
+  "id": 23594,
+  "bucket": "cannot",
+  "hard_misses": [
+   "ITAR citizenship/permanent residency requirement",
+   "on-site US"
+  ],
+  "soft_misses": [],
+  "reason": "ITAR US person required."
+ },
+ {
+  "id": 23828,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US citizen/PR required",
+   "US internship"
+  ],
+  "soft_misses": [],
+  "reason": "Citizenship requirement."
+ },
+ {
+  "id": 24017,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior, 5+ years",
+   "ITAR US person"
+  ],
+  "soft_misses": [],
+  "reason": "Senior role with ITAR."
+ },
+ {
+  "id": 24817,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required",
+   "US-only location"
+  ],
+  "soft_misses": [],
+  "reason": "5+ years AI/ML required."
+ },
+ {
+  "id": 25303,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "Master's degree required",
+   "on-site Canada, sponsorship not stated"
+  ],
+  "reason": "Master's intern in Toronto."
+ },
+ {
+  "id": 25304,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship, no sponsorship stated"
+  ],
+  "soft_misses": [
+   "Master's degree required"
+  ],
+  "reason": "Master's intern in US."
+ },
+ {
+  "id": 25350,
+  "bucket": "cannot",
+  "hard_misses": [
+   "PhD required"
+  ],
+  "soft_misses": [
+   "Canada on-site"
+  ],
+  "reason": "PhD intern."
+ },
+ {
+  "id": 25351,
+  "bucket": "cannot",
+  "hard_misses": [
+   "PhD required",
+   "US internship"
+  ],
+  "soft_misses": [],
+  "reason": "PhD intern in US."
+ },
+ {
+  "id": 25512,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bengaluru intern for bachelor's students."
+ },
+ {
+  "id": 25624,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff role, 10+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Staff, 10+ years."
+ },
+ {
+  "id": 25699,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, 3+ years required (plus 1+ FinOps)"
+  ],
+  "soft_misses": [],
+  "reason": "Senior SRE needing 3+ years."
+ },
+ {
+  "id": 25851,
+  "bucket": "cannot",
+  "hard_misses": [
+   "no visa sponsorship, must be authorized in US",
+   "senior, 3+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior US SRE without sponsorship."
+ },
+ {
+  "id": 25970,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Singapore citizen or PR required",
+   "4+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Singapore citizen/PR and 4+ years."
+ },
+ {
+  "id": 25971,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Singapore citizen or PR required",
+   "4+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Singapore citizen/PR and 4+ years."
+ },
+ {
+  "id": 26052,
+  "bucket": "cannot",
+  "hard_misses": [
+   "lead/manager role",
+   "remote US only"
+  ],
+  "soft_misses": [],
+  "reason": "Engineering lead, US only."
+ },
+ {
+  "id": 26149,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff role, 8+ years",
+   "remote US only"
+  ],
+  "soft_misses": [],
+  "reason": "Staff, US remote."
+ },
+ {
+  "id": 26156,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff role, 8+ years",
+   "remote US only"
+  ],
+  "soft_misses": [],
+  "reason": "Staff, US remote."
+ },
+ {
+  "id": 26398,
+  "bucket": "cannot",
+  "hard_misses": [
+   "6+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "6+ years required."
+ },
+ {
+  "id": 26582,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, 5+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior iOS 5+ years."
+ },
+ {
+  "id": 26583,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, 5+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior iOS 5+ years."
+ },
+ {
+  "id": 26584,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, 5+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior iOS 5+ years."
+ }
+]

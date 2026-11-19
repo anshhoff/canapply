@@ -1,0 +1,287 @@
+[
+ {
+  "id": 8089,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship, requires US work authorization, no visa sponsorship"
+  ],
+  "soft_misses": [],
+  "reason": "US-based internship with explicit no-sponsorship."
+ },
+ {
+  "id": 8106,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Staff role, 9+ years",
+   "US-only remote"
+  ],
+  "soft_misses": [],
+  "reason": "Staff level and US-only remote."
+ },
+ {
+  "id": 8223,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4+ years experience"
+  ],
+  "soft_misses": [
+   "onsite SF"
+  ],
+  "reason": "Requires 4+ years of experience."
+ },
+ {
+  "id": 8309,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Requires 5+ years in DevRel."
+ },
+ {
+  "id": 8310,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Manager role leading a team"
+  ],
+  "soft_misses": [],
+  "reason": "Management role."
+ },
+ {
+  "id": 8311,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "significant DevRel experience required (unquantified, senior-level pay)"
+  ],
+  "reason": "Experience requirement is vague but substantial; Anthropic sponsors visas."
+ },
+ {
+  "id": 8902,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4+ years production ML experience"
+  ],
+  "soft_misses": [
+   "onsite Palo Alto, no sponsorship info"
+  ],
+  "reason": "Requires 4+ years."
+ },
+ {
+  "id": 9021,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite in SF/NY/London with no work rights, sponsorship not stated"
+  ],
+  "reason": "No years required but must be based in US/UK city."
+ },
+ {
+  "id": 9038,
+  "bucket": "cannot",
+  "hard_misses": [
+   "North America only"
+  ],
+  "soft_misses": [
+   "2+ years experience"
+  ],
+  "reason": "North America location and 2+ years required."
+ },
+ {
+  "id": 9076,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US-only remote, no visa sponsorship"
+  ],
+  "soft_misses": [],
+  "reason": "US-only with no sponsorship."
+ },
+ {
+  "id": 9230,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 8+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, 8+ years."
+ },
+ {
+  "id": 9256,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Staff role, 12+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Staff, 12+ years."
+ },
+ {
+  "id": 10196,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore role, internship experience or 1-2 years accepted."
+ },
+ {
+  "id": 10211,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore graduate program for final-year students."
+ },
+ {
+  "id": 10467,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 5+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior with 5+ years."
+ },
+ {
+  "id": 10567,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "experienced data scientist sought, 5+ years listed as desirable"
+  ],
+  "reason": "Bengaluru but experience-heavy, years only desirable."
+ },
+ {
+  "id": 10968,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore systems engineer, no years required."
+ },
+ {
+  "id": 11340,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Director role"
+  ],
+  "soft_misses": [],
+  "reason": "Director level."
+ },
+ {
+  "id": 11640,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 5+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, 5+ years."
+ },
+ {
+  "id": 11650,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite Toronto, no work rights, sponsorship not stated"
+  ],
+  "reason": "Toronto internship with no sponsorship stated."
+ },
+ {
+  "id": 11666,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid Toronto, no work rights, sponsorship not stated"
+  ],
+  "reason": "Toronto hybrid internship with no sponsorship stated."
+ },
+ {
+  "id": 11673,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Lead role, 5+ years",
+   "US-only remote"
+  ],
+  "soft_misses": [],
+  "reason": "Lead, 5+ years, US remote."
+ },
+ {
+  "id": 11690,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 3+ years",
+   "remote Taiwan only"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, Taiwan-only remote."
+ },
+ {
+  "id": 11691,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 3+ years",
+   "US-only remote"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, US-only remote."
+ },
+ {
+  "id": 11692,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 3+ years",
+   "remote Australia only"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, Australia-only remote."
+ },
+ {
+  "id": 11693,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 3+ years",
+   "Canada-only remote"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, Canada-only remote."
+ },
+ {
+  "id": 11716,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Toronto-based, no work rights, sponsorship not stated (remote-friendly)"
+  ],
+  "reason": "Toronto internship, remote-friendly but no sponsorship stated."
+ },
+ {
+  "id": 12207,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite in US/Canada offices with no work rights, sponsorship not stated (Vancouver option avoids US)"
+  ],
+  "reason": "2027 intern with grad fall 2027 fits; location abroad."
+ },
+ {
+  "id": 12214,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite Denmark, no work rights, sponsorship not stated"
+  ],
+  "reason": "New grad 2026-27 window fits; onsite Denmark."
+ },
+ {
+  "id": 12217,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "onsite London, no work rights, sponsorship not stated"
+  ],
+  "reason": "New grad 2026-27 window fits; onsite London."
+ },
+ {
+  "id": 12330,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Senior role, 5+ years"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, 5+ years."
+ }
+]

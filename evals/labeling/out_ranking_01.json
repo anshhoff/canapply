@@ -1,0 +1,312 @@
+[
+ {
+  "id": 263,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "US hybrid, no visa statement"
+  ],
+  "reason": "Senior SRE needing 5 years."
+ },
+ {
+  "id": 328,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "Melbourne role, no visa statement"
+  ],
+  "reason": "Senior SRE needing 5 years."
+ },
+ {
+  "id": 334,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "US hybrid, no visa statement"
+  ],
+  "reason": "Senior backend needing 5 years."
+ },
+ {
+  "id": 372,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "Singapore on-site, no visa statement"
+  ],
+  "reason": "Final-year intern fits, but on-site in Singapore with no sponsorship stated."
+ },
+ {
+  "id": 479,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "Singapore on-site, no visa statement"
+  ],
+  "reason": "Senior SRE needing 5 years."
+ },
+ {
+  "id": 495,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "Singapore on-site, no visa statement"
+  ],
+  "reason": "Senior data engineer needing 5 years."
+ },
+ {
+  "id": 557,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff role",
+   "7+ years required"
+  ],
+  "soft_misses": [
+   "Singapore on-site, no visa statement"
+  ],
+  "reason": "Staff role needing 7 years."
+ },
+ {
+  "id": 558,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role",
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "Singapore on-site, no visa statement"
+  ],
+  "reason": "Senior data engineer needing 5 years."
+ },
+ {
+  "id": 718,
+  "bucket": "cannot",
+  "hard_misses": [
+   "engineering level role",
+   "remote limited to EU, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Engineering Manager role, remote only within EU."
+ },
+ {
+  "id": 721,
+  "bucket": "cannot",
+  "hard_misses": [
+   "engineering level role",
+   "remote limited to UK, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Engineering Manager role, remote only within UK."
+ },
+ {
+  "id": 724,
+  "bucket": "cannot",
+  "hard_misses": [
+   "engineering level role",
+   "remote limited to Canada, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Engineering Manager role, remote only within Canada."
+ },
+ {
+  "id": 725,
+  "bucket": "cannot",
+  "hard_misses": [
+   "engineering level role",
+   "remote limited to US, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Engineering Manager role, remote only within US."
+ },
+ {
+  "id": 726,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff level role",
+   "remote limited to US, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Staff Design Engineer role, remote only within US."
+ },
+ {
+  "id": 728,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff level role",
+   "remote limited to US, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Staff Product Engineer role, remote only within US."
+ },
+ {
+  "id": 729,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior level role",
+   "remote limited to Canada, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Senior Product Engineer role, remote only within Canada."
+ },
+ {
+  "id": 730,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior level role",
+   "remote limited to US, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Senior Product Engineer role, remote only within US."
+ },
+ {
+  "id": 732,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior level role",
+   "remote limited to EU, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Senior Software Engineer role, remote only within EU."
+ },
+ {
+  "id": 733,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff level role",
+   "remote limited to EU, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Staff Software Engineer role, remote only within EU."
+ },
+ {
+  "id": 734,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff level role",
+   "remote limited to UK, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Staff Software Engineer role, remote only within UK."
+ },
+ {
+  "id": 735,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior level role",
+   "remote limited to UK, not India"
+  ],
+  "soft_misses": [],
+  "reason": "Senior Software Engineer role, remote only within UK."
+ },
+ {
+  "id": 826,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "2+ years experience required (about 1 year more)",
+   "US hybrid, no visa statement"
+  ],
+  "reason": "Needs 2+ years and is hybrid in US/Canada with no sponsorship stated."
+ },
+ {
+  "id": 827,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "US hybrid, no visa statement"
+  ],
+  "reason": "No stated years; hybrid in US/Canada with no visa statement."
+ },
+ {
+  "id": 854,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "US hybrid, no visa statement"
+  ],
+  "reason": "No years stated; hybrid in US/Canada with no visa statement."
+ },
+ {
+  "id": 864,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "US hybrid, no visa statement"
+  ],
+  "reason": "1-2 years fits; hybrid in US with no visa statement."
+ },
+ {
+  "id": 1037,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Early-career-friendly role on-site in India, no experience requirement."
+ },
+ {
+  "id": 1129,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "Toronto hybrid, no visa statement",
+   "New Grad 2026 vs graduating 2027"
+  ],
+  "reason": "Class-of-2026 new grad role in Canada, off by a year and no sponsorship stated."
+ },
+ {
+  "id": 1196,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bengaluru hybrid; no years or seniority stated."
+ },
+ {
+  "id": 1229,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "US hybrid, no visa statement"
+  ],
+  "reason": "Needs 5+ years."
+ },
+ {
+  "id": 1242,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship, no sponsorship stated, no US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "On-site US internship with no visa sponsorship mentioned."
+ },
+ {
+  "id": 1377,
+  "bucket": "cannot",
+  "hard_misses": [
+   "location limited to Europe or US"
+  ],
+  "soft_misses": [],
+  "reason": "Location restricted to Europe or US, not India."
+ },
+ {
+  "id": 1385,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Remote including India, 1-4 years experience fits."
+ }
+]

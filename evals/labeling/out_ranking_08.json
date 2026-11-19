@@ -1,0 +1,298 @@
+[
+ {
+  "id": 18859,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "needs 2+ years speech analytics experience (about 1.2 more than candidate)"
+  ],
+  "reason": "Bengaluru role asking 2+ years vs 0.8, one soft miss."
+ },
+ {
+  "id": 19043,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "US Person (citizen/green card) required",
+   "US-based, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Senior SRE requiring US Person status."
+ },
+ {
+  "id": 19070,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "5+ years experience required"
+  ],
+  "soft_misses": [],
+  "reason": "Senior engineer needing 5+ years."
+ },
+ {
+  "id": 19145,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "US-based, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Staff SRE in Bellevue, US."
+ },
+ {
+  "id": 19530,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "on-site in Denmark, no visa info"
+  ],
+  "soft_misses": [],
+  "reason": "Senior backend role on-site in Aarhus."
+ },
+ {
+  "id": 19553,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years experience required",
+   "remote limited to United States"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years and US residence."
+ },
+ {
+  "id": 19590,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "remote limited to United States"
+  ],
+  "soft_misses": [],
+  "reason": "Senior iOS, remote US only."
+ },
+ {
+  "id": 19638,
+  "bucket": "cannot",
+  "hard_misses": [
+   "8+ years experience",
+   "lead role",
+   "hybrid San Francisco, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Lead role needing 8+ years in SF."
+ },
+ {
+  "id": 19712,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5-10+ years senior recruiter role",
+   "on-site San Francisco, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Senior recruiter in SF."
+ },
+ {
+  "id": 19786,
+  "bucket": "cannot",
+  "hard_misses": [
+   "Canada based applicants only"
+  ],
+  "soft_misses": [
+   "Master's/PhD required"
+  ],
+  "reason": "Toronto internship for Canada-based applicants and grad students."
+ },
+ {
+  "id": 19795,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US based applicants only",
+   "US internship, no US work rights",
+   "Master's required"
+  ],
+  "soft_misses": [],
+  "reason": "US-based Master's internship."
+ },
+ {
+  "id": 19800,
+  "bucket": "cannot",
+  "hard_misses": [
+   "PhD required",
+   "US based applicants only",
+   "US internship, no US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "PhD-only US internship."
+ },
+ {
+  "id": 19905,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "US-based / remote US only"
+  ],
+  "soft_misses": [],
+  "reason": "Staff engineer, US only."
+ },
+ {
+  "id": 19940,
+  "bucket": "cannot",
+  "hard_misses": [
+   "several years of experience required",
+   "UK-based role, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Needs several years experience in UK."
+ },
+ {
+  "id": 19959,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bengaluru frontend role needing 1+ year; candidate 0.8 is within half a year."
+ },
+ {
+  "id": 20041,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "on-site San Francisco, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Senior iOS in San Francisco."
+ },
+ {
+  "id": 20089,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "remote limited to United States"
+  ],
+  "soft_misses": [],
+  "reason": "Staff iOS, remote US only."
+ },
+ {
+  "id": 20112,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "remote limited to United States"
+  ],
+  "soft_misses": [],
+  "reason": "Staff iOS, remote US only."
+ },
+ {
+  "id": 20140,
+  "bucket": "cannot",
+  "hard_misses": [
+   "must be authorized to work in US, no sponsorship",
+   "graduating 2028 required"
+  ],
+  "soft_misses": [],
+  "reason": "US internship with no sponsorship, 2028 grads."
+ },
+ {
+  "id": 20162,
+  "bucket": "cannot",
+  "hard_misses": [
+   "must be authorized to work in US, no sponsorship",
+   "MS/PhD required, graduating 2028"
+  ],
+  "soft_misses": [],
+  "reason": "US MS/PhD internship, no sponsorship."
+ },
+ {
+  "id": 20408,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "on-site New York, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Senior staff role in New York."
+ },
+ {
+  "id": 20562,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "Toronto, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Senior staff role in Toronto."
+ },
+ {
+  "id": 20776,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "San Mateo US, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Senior SRE in San Mateo."
+ },
+ {
+  "id": 20777,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role",
+   "San Mateo US, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Senior SRE in San Mateo."
+ },
+ {
+  "id": 20863,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US-based internship, no US work rights; posting says it may not support visas"
+  ],
+  "soft_misses": [],
+  "reason": "US internship without visa support."
+ },
+ {
+  "id": 20919,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore program intern for 2027 graduates, matches candidate."
+ },
+ {
+  "id": 20999,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior platform engineer role."
+ },
+ {
+  "id": 21002,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff-level role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior applied AI engineer role."
+ },
+ {
+  "id": 21036,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore/Pune software engineer, no experience number stated."
+ },
+ {
+  "id": 21039,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore winter intern for 2027 graduates, matches candidate."
+ },
+ {
+  "id": 21041,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Pune software engineer, no experience number stated."
+ }
+]

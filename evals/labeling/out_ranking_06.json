@@ -1,0 +1,288 @@
+[
+ {
+  "id": 12510,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 12700,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in France, no visa sponsorship stated"
+  ],
+  "reason": "2027-graduate internship fits but it is hybrid in Paris with no visa statement."
+ },
+ {
+  "id": 12724,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 3+ years experience"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years of sales/solutions engineering experience."
+ },
+ {
+  "id": 12747,
+  "bucket": "cannot",
+  "hard_misses": [
+   "lead role"
+  ],
+  "soft_misses": [
+   "hybrid in US, no visa statement"
+  ],
+  "reason": "Lead-titled function owner role, US hybrid."
+ },
+ {
+  "id": 13227,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 13248,
+  "bucket": "cannot",
+  "hard_misses": [
+   "must be authorised to work in UK",
+   "graduated within last year"
+  ],
+  "soft_misses": [],
+  "reason": "UK right to work required."
+ },
+ {
+  "id": 13298,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 13448,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship without US work rights"
+  ],
+  "soft_misses": [
+   "Master's degree required"
+  ],
+  "reason": "US ML internship for master's students."
+ },
+ {
+  "id": 13645,
+  "bucket": "cannot",
+  "hard_misses": [
+   "requires 3+ years experience",
+   "onsite in US, no work rights"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years data engineering experience, US-based."
+ },
+ {
+  "id": 13648,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US onsite, no visa statement"
+  ],
+  "soft_misses": [
+   "requires 2+ years experience"
+  ],
+  "reason": "2+ years required plus US on-site location."
+ },
+ {
+  "id": 13652,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship requires US work authorisation"
+  ],
+  "soft_misses": [],
+  "reason": "Applicants must be authorised to work in the US."
+ },
+ {
+  "id": 13854,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 13930,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "requires 2+ years experience",
+   "Costa Rica location, no visa statement"
+  ],
+  "reason": "2+ years required and located in Costa Rica."
+ },
+ {
+  "id": 14092,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 14095,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 14096,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 14237,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 14239,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bangalore role with no stated years of experience requirement."
+ },
+ {
+  "id": 14427,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 14428,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 14655,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship without US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "US-based internship, no US work rights."
+ },
+ {
+  "id": 14920,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 14937,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 14952,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "requires 2+ years experience"
+  ],
+  "reason": "Bengaluru hybrid role asking 2+ years, about a year more than candidate."
+ },
+ {
+  "id": 15182,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff/lead role"
+  ],
+  "soft_misses": [],
+  "reason": "Senior/staff/lead-level role requiring many years of experience."
+ },
+ {
+  "id": 15186,
+  "bucket": "cannot",
+  "hard_misses": [
+   "US internship without US work rights"
+  ],
+  "soft_misses": [],
+  "reason": "In-person NYC internship, no US work rights."
+ },
+ {
+  "id": 15193,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to countries excluding India"
+  ],
+  "soft_misses": [],
+  "reason": "Remote only in listed non-India countries."
+ },
+ {
+  "id": 15194,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to countries excluding India"
+  ],
+  "soft_misses": [],
+  "reason": "Remote only in listed non-India countries."
+ },
+ {
+  "id": 15195,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to countries excluding India"
+  ],
+  "soft_misses": [],
+  "reason": "Remote only in listed non-India countries."
+ },
+ {
+  "id": 15196,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to countries excluding India"
+  ],
+  "soft_misses": [],
+  "reason": "Remote only in listed non-India countries."
+ },
+ {
+  "id": 15257,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to countries excluding India"
+  ],
+  "soft_misses": [],
+  "reason": "Remote only in listed non-India countries."
+ }
+]

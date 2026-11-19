@@ -1,0 +1,263 @@
+[
+ {
+  "id": 5271,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India role, no experience years stated."
+ },
+ {
+  "id": 5274,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India role, no experience years stated."
+ },
+ {
+  "id": 5298,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India role, no experience years stated."
+ },
+ {
+  "id": 5310,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in US, no visa statement"
+  ],
+  "reason": "US hybrid full-time role without sponsorship info; otherwise no years required."
+ },
+ {
+  "id": 5641,
+  "bucket": "cannot",
+  "hard_misses": [],
+  "soft_misses": [
+   "2+ years required (about 1 year more)",
+   "in-person SF, no visa statement"
+  ],
+  "reason": "In-person US role needing 2+ years."
+ },
+ {
+  "id": 5680,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote US only",
+   "7+ years, lead role"
+  ],
+  "soft_misses": [],
+  "reason": "US-only remote lead role needing 7+ years."
+ },
+ {
+  "id": 5735,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required",
+   "hybrid US"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 5+ years."
+ },
+ {
+  "id": 5811,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "2-5 years required (min 2)"
+  ],
+  "reason": "On-site India but needs 2+ years."
+ },
+ {
+  "id": 5815,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3-5 years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years."
+ },
+ {
+  "id": 5817,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3-6 years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3+ years."
+ },
+ {
+  "id": 5902,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "on-site US, no visa statement"
+  ],
+  "reason": "Needs 5+ years."
+ },
+ {
+  "id": 6069,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Remote India, no years required."
+ },
+ {
+  "id": 6073,
+  "bucket": "cannot",
+  "hard_misses": [
+   "4-8 years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 4+ years."
+ },
+ {
+  "id": 6075,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior-level proven hyper-growth track record"
+  ],
+  "soft_misses": [],
+  "reason": "Role aimed at proven top-tier senior engineers."
+ },
+ {
+  "id": 6084,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "On-site Bengaluru, evaluates ability not years."
+ },
+ {
+  "id": 6361,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site Poland, no visa statement"
+  ],
+  "reason": "On-site internship in Poland, no sponsorship info."
+ },
+ {
+  "id": 6485,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid/in-office SF, no visa statement"
+  ],
+  "reason": "US hybrid; experienced ML role, no years stated."
+ },
+ {
+  "id": 6579,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6585,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6611,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6613,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 5+ years."
+ },
+ {
+  "id": 6614,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6618,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6625,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6626,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6632,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6637,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 5+ years."
+ },
+ {
+  "id": 6639,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote, no years stated."
+ },
+ {
+  "id": 6964,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3+ years required"
+  ],
+  "soft_misses": [
+   "hybrid UK, no visa statement"
+  ],
+  "reason": "Needs 3+ years."
+ },
+ {
+  "id": 7820,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior/staff role, 8+ years"
+  ],
+  "soft_misses": [
+   "on-site Thailand, no visa statement"
+  ],
+  "reason": "Senior/Staff role needing 8+ years."
+ },
+ {
+  "id": 8069,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role 5-9+ years",
+   "remote US only"
+  ],
+  "soft_misses": [],
+  "reason": "Senior US-only role."
+ }
+]

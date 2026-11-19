@@ -1,0 +1,291 @@
+[
+ {
+  "id": 1435,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, 6+ years required",
+   "remote limited to Europe or US"
+  ],
+  "soft_misses": [],
+  "reason": "Senior role needing 6+ years and limited to Europe/US."
+ },
+ {
+  "id": 1480,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "India hybrid role with no stated years requirement; STEM degree only."
+ },
+ {
+  "id": 1574,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site/hybrid in UAE/Saudi, no sponsorship stated"
+  ],
+  "reason": "Hybrid in the Middle East with no visa statement; no years required."
+ },
+ {
+  "id": 1581,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in Europe, no sponsorship stated"
+  ],
+  "reason": "Hybrid in Europe with no visa statement; no years required."
+ },
+ {
+  "id": 1583,
+  "bucket": "cannot",
+  "hard_misses": [
+   "PhD required",
+   "senior role"
+  ],
+  "soft_misses": [
+   "hybrid in UK/Europe/US/Canada, no sponsorship stated"
+  ],
+  "reason": "PhD with publications required."
+ },
+ {
+  "id": 1586,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to US/Canada"
+  ],
+  "soft_misses": [],
+  "reason": "Remote only in US/Canada."
+ },
+ {
+  "id": 1596,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in Middle East, no sponsorship stated"
+  ],
+  "reason": "Hybrid in the Middle East, open to relocation, no years required."
+ },
+ {
+  "id": 1604,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to Canada/Europe/US/UK",
+   "must be enrolled in post-secondary program in those regions"
+  ],
+  "soft_misses": [],
+  "reason": "Intern role remote only in Canada/Europe/US/UK."
+ },
+ {
+  "id": 1637,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to UK",
+   "DV clearance preferred, UK-based"
+  ],
+  "soft_misses": [],
+  "reason": "Remote UK only."
+ },
+ {
+  "id": 1718,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bengaluru on-site internship open to final-year students; candidate in India."
+ },
+ {
+  "id": 2198,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required",
+   "German fluency required"
+  ],
+  "soft_misses": [
+   "on-site in UK, no sponsorship stated"
+  ],
+  "reason": "Needs 5+ years and German, on-site London."
+ },
+ {
+  "id": 2234,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "on-site in Australia, no sponsorship stated"
+  ],
+  "reason": "Needs 5+ years, on-site Australia."
+ },
+ {
+  "id": 2265,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, 4+ years required"
+  ],
+  "soft_misses": [
+   "on-site in US, no sponsorship stated"
+  ],
+  "reason": "Senior role needing 4+ years in SF."
+ },
+ {
+  "id": 2267,
+  "bucket": "cannot",
+  "hard_misses": [
+   "senior role, 5+ years required",
+   "Top Secret clearance required",
+   "US-based"
+  ],
+  "soft_misses": [],
+  "reason": "Senior, TS clearance, 5+ years."
+ },
+ {
+  "id": 2283,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site in US, no sponsorship stated"
+  ],
+  "reason": "Entry-friendly FDE role but on-site in SF/NYC with no visa statement."
+ },
+ {
+  "id": 2295,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to USA"
+  ],
+  "soft_misses": [],
+  "reason": "Remote USA or SF/NYC only."
+ },
+ {
+  "id": 2297,
+  "bucket": "cannot",
+  "hard_misses": [
+   "remote limited to USA"
+  ],
+  "soft_misses": [],
+  "reason": "Remote USA or SF/NYC only."
+ },
+ {
+  "id": 2304,
+  "bucket": "cannot",
+  "hard_misses": [
+   "staff role, 7+ years required",
+   "remote limited to US"
+  ],
+  "soft_misses": [],
+  "reason": "Staff level, 7+ years, US remote."
+ },
+ {
+  "id": 2310,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site in US, no sponsorship stated"
+  ],
+  "reason": "No years required (2+ preferred) but on-site in SF with no visa statement."
+ },
+ {
+  "id": 2378,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years expected"
+  ],
+  "soft_misses": [
+   "on-site in US, no sponsorship stated"
+  ],
+  "reason": "SRE needing about 5+ years, on-site SF."
+ },
+ {
+  "id": 2381,
+  "bucket": "cannot",
+  "hard_misses": [
+   "5+ years required"
+  ],
+  "soft_misses": [
+   "on-site in US, no sponsorship stated"
+  ],
+  "reason": "Requires 5+ years, on-site SF."
+ },
+ {
+  "id": 2403,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Global remote with no country limit and no years requirement stated."
+ },
+ {
+  "id": 2458,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Freelance role remote globally including India; no years stated."
+ },
+ {
+  "id": 2520,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Bengaluru role; Master's and 7+ years only listed as ideal."
+ },
+ {
+  "id": 2527,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "hybrid in US, no sponsorship stated"
+  ],
+  "reason": "Mountain View hybrid, 4 years only ideal, no visa statement."
+ },
+ {
+  "id": 2531,
+  "bucket": "cannot",
+  "hard_misses": [
+   "3-5 years required"
+  ],
+  "soft_misses": [],
+  "reason": "Needs 3-5 years of DevOps experience."
+ },
+ {
+  "id": 2581,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "on-site in US, no sponsorship stated"
+  ],
+  "reason": "On-site San Jose with no visa statement; no years stated."
+ },
+ {
+  "id": 2695,
+  "bucket": "cannot",
+  "hard_misses": [
+   "head-level role, 6+ years required"
+  ],
+  "soft_misses": [],
+  "reason": "Head of DevRel needing 6+ years."
+ },
+ {
+  "id": 2704,
+  "bucket": "stretch",
+  "hard_misses": [],
+  "soft_misses": [
+   "requires several years of programming experience"
+  ],
+  "reason": "Remote India eligible; 'several years' of programming is a mild stretch."
+ },
+ {
+  "id": 2748,
+  "bucket": "can_apply",
+  "hard_misses": [],
+  "soft_misses": [],
+  "reason": "Remote APAC includes India; no years stated."
+ },
+ {
+  "id": 2856,
+  "bucket": "cannot",
+  "hard_misses": [
+   "6+ years and 2+ years leadership required"
+  ],
+  "soft_misses": [
+   "hybrid in US, no sponsorship stated"
+  ],
+  "reason": "Needs 6+ years with tech-lead experience."
+ }
+]

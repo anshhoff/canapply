@@ -1,0 +1,43 @@
+name: seed database (one-off)
+# Loads a database dump into the hosted Postgres from GitHub's network. Used once, because uploading 450 MB
+# straight from a home connection to the database kept timing out. The dump parts sit in a temporary draft
+# release named db-seed, which is deleted after the restore.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write        # draft releases are only visible with write access
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Postgres 18 client tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq postgresql-common
+          sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh -y
+          sudo apt-get install -y -qq postgresql-client-18
+      - name: Refuse to overwrite a database that already holds jobs
+        run: |
+          has=$(psql "$DATABASE_URL" -Atc "select count(*) from information_schema.tables where table_schema='public' and table_name='jobs'")
+          if [ "$has" = "1" ]; then
+            rows=$(psql "$DATABASE_URL" -Atc "select count(*) from jobs")
+            [ "$rows" = "0" ] || { echo "jobs already has $rows rows"; exit 1; }
+          fi
+      - name: Download and verify the dump
+        run: |
+          gh release download db-seed --repo "$GITHUB_REPOSITORY" --pattern 'part-*' --pattern 'sha256.txt'
+          cat part-* > canapply.dump
+          echo "$(cat sha256.txt)  canapply.dump" | sha256sum -c
+      - name: Restore
+        run: |
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -qc "drop schema public cascade; create schema public"
+          /usr/lib/postgresql/18/bin/pg_restore --no-owner --no-privileges --exit-on-error --dbname="$DATABASE_URL" canapply.dump
+      - name: Verify
+        run: |
+          psql "$DATABASE_URL" -Atc "select 'open jobs: ' || count(*) filter (where closed_at is null) || ', embedded: ' || count(embedding) from jobs; select 'readings: ' || count(*) from requirements; select 'labels: ' || count(*) from labels; select 'size: ' || pg_size_pretty(pg_database_size(current_database()))"
